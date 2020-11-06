@@ -17,6 +17,18 @@
       "zip": "72322006"
     },
     "resumedownload":"/files/CV_Victor_Mota_Br.pdf",
+    "flags": [
+      {
+        "image": "brazil.png",
+        "title": "brazil"
+      },{
+        "image": "eua.png",
+        "title": "eua"
+      },{
+        "image": "germany.svg",
+        "title": "germany"
+      }
+    ],
     "social":[
       {
         "name":"facebook",
@@ -105,20 +117,6 @@
         "name":"Heroku",
         "description":"Eu utilizei o heroku como plataforma de hospedagem online gratuita no meu tcc e um outro trabalho da faculdade. É razoavelmente fácil configurar e de se utilizar e por esses motivos, eu gosto muito.",
         "image":"heroku.jpg"
-      }
-    ]
-  },
-  "flags":{
-    "countries": [
-      {
-        "image":"brazil.png",
-        "title": "brazil"
-      },{
-        "eua": "eua.png",
-        "title": "eua"
-      },{
-        "germany": "germany.svg",
-        "title": "germany"
       }
     ]
   },
