@@ -108,6 +108,20 @@
       }
     ]
   },
+  "flags":{
+    "countries": [
+      {
+        "image":"brazil.png",
+        "title": "brazil"
+      },{
+        "eua": "eua.png",
+        "title": "eua"
+      },{
+        "germany": "germany.svg",
+        "title": "germany"
+      }
+    ]
+  },
   "portfolio":{
     "projects": [
       {
