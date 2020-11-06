@@ -163,6 +163,14 @@ ul#nav li {
    display: inline-block;
 }
 
+ul#nav img {
+   position: relative;
+   height: 20px;
+   display: inline-block;
+   top: 5px;
+   margin-left: 20px;
+}
+
 /* Links */
 ul#nav li a {
 

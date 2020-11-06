@@ -17,6 +17,18 @@
       "zip": "72322006"
     },
     "resumedownload":"/files/CV_Victor_Mota_Br.pdf",
+    "flags": [
+      {
+        "image": "brazil.png",
+        "title": "brazil"
+      },{
+        "image": "eua.png",
+        "title": "eua"
+      },{
+        "image": "germany.svg",
+        "title": "germany"
+      }
+    ],
     "social":[
       {
         "name":"facebook",

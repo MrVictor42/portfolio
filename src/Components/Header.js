@@ -8,11 +8,15 @@ class Header extends Component {
 			var name = this.props.data.name;
 			var description = this.props.data.description;
 			var networks = this.props.data.social.map(function(network){
-				return <li key = { network.name }
-					><a href={network.url}>
-						<i className={network.className}></i>
+				return <li key = { network.name }>
+					<a href = { network.url }>
+						<i className = { network.className }></i>
 					</a>
 				</li>
+			})
+			var images = this.props.data.flags.map(function(images){
+				var imagesFlags = 'images/flags/' + images.image;
+				return <img src = { imagesFlags } alt = { images.title } />
 			})
 		}
 
@@ -41,6 +45,7 @@ class Header extends Component {
 						<li>
 							<a className = 'smoothscroll' href = '#portfolio'>Trabalho</a>
 						</li>
+						{ images } 
 					</ul>
 				</nav>
 
