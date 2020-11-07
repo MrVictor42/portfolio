@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
+
+import defaultMessages from '../message/message';
 
 class Header extends Component {
 
@@ -36,16 +39,29 @@ class Header extends Component {
 
 					<ul id = 'nav' className = 'nav'>
 						<li className = 'current'>
-							<a className = 'smoothscroll' href = '#home'>Início</a>
+							<a className = 'smoothscroll' href = '#home'>								<FormattedMessage id = "home" 
+									defaultMessage = { defaultMessages.header.home } 
+								/>
+							</a>
 						</li>
 						<li>
-							<a className = 'smoothscroll' href = '#about'>Quem Sou?</a>
+							<a className = 'smoothscroll' href = '#about'>
+								<FormattedMessage id = "about" 
+									defaultMessage = { defaultMessages.header.about } 
+								/>
+							</a>
 						</li>
 						<li>
-							<a className = 'smoothscroll' href = '#resume'>Resumo</a>
+							<a className = 'smoothscroll' href = '#resume'>
+								<FormattedMessage id = "resume" 
+									defaultMessage = { defaultMessages.header.resume } 
+								/></a>
 						</li>
 						<li>
-							<a className = 'smoothscroll' href = '#portfolio'>Trabalho</a>
+							<a className = 'smoothscroll' href = '#portfolio'>
+								<FormattedMessage id = "work" 
+									defaultMessage = { defaultMessages.header.work } 
+								/></a>
 						</li>
 						{ images } 
 					</ul>
