@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-  
+
 	render() {
 
 		if(this.props.data){
@@ -16,7 +16,9 @@ class Header extends Component {
 			})
 			var images = this.props.data.flags.map(function(images){
 				var imagesFlags = 'images/flags/' + images.image;
-				return <img src = { imagesFlags } alt = { images.title } />
+				return <a href = { images.abreviation }>
+					<img src = { imagesFlags } alt = { images.title } />
+				</a> 
 			})
 		}
 

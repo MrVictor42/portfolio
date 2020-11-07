@@ -20,13 +20,16 @@
     "flags": [
       {
         "image": "brazil.png",
-        "title": "brazil"
+        "title": "brazil",
+        "abreviation": "pt-br"
       },{
         "image": "eua.png",
-        "title": "eua"
+        "title": "eua",
+        "abreviation": "en-us"
       },{
         "image": "germany.svg",
-        "title": "germany"
+        "title": "germany",
+        "abreviation": "de-de"
       }
     ],
     "social":[
