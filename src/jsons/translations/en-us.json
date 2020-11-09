@@ -1,0 +1,19 @@
+{
+    "home" : "Home",
+    "about" : "About",
+    "resume" : "Resume",
+    "work": "Work",
+    "description": "I'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). I am a person who always seeks to know something new, who struggles to achieve goals and wants to reach new horizons.",
+    "im": "I'm ",
+    "imAbout": "Who am I?",
+    "descriptionAbout" : "I'm a calm guy, with a desire to work, a passion for programming and new knowledge and experiences. I like projects, from their initiation phase to the closing phase. I am not currently working, but I have the desire to return to working with software. Has the desire to work and live in another country.",
+    "contactAbout": "Contact",
+    "name": "Victor Hugo Lopes Mota",
+    "email": "victormota042@gmail.com",
+    "phone": "+55 (61) 99459-2869",
+    "street":"Samambaia Norte",
+    "city":"Brasília",
+    "state":"Brazil",
+    "zip": "72322-006",
+    "education": "Education"
+}

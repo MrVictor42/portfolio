@@ -1,0 +1,19 @@
+{
+    "home" : "Início",
+    "about" : "Quem Sou?",
+    "resume" : "Resumo",
+    "work": "Trabalho",
+    "description": "Eu sou de Brasília, Brasil. Sou engenheiro de software formado pela Universidade de Brasília (UnB). Sou uma pessoa que busca sempre por conhecer algo novo, que luta para alcançar os objetivos e quer alcançar novos horizontes.",
+    "im": "Eu sou ",
+    "imAbout": "Quem Sou?",
+    "descriptionAbout" : "Sou um cara tranquilo, com desejo de trabalhar, paixão por programação e por novos conhecimentos e experiências. Gosto de projetos, desde a sua fase de iniciação até a fase de encerramento. Atualmente não estou trabalhando, mas possuo o desejo de voltar a trabalhar com software. Possui o desejo de trabalhar e morar em outro país.",
+    "contactAbout": "Contato",
+    "name": "Victor Hugo Lopes Mota",
+    "email": "victormota042@gmail.com",
+    "phone": "+55 (61) 99459-2869",
+    "street":"Samambaia Norte",
+    "city":"Brasília",
+    "state":"Brasil",
+    "zip": "72322-006",
+    "education": "Educação"
+}

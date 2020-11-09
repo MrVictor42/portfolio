@@ -1,0 +1,19 @@
+{
+    "home" : "Home",
+    "about" : "Wer bin ich?",
+    "resume" : "Zusammenfassung",
+    "work": "Job",
+    "description": "Ich komme aus Brasilia, Brasilien. Ich bin ein Software-Ingenieur, der an der Universität von Brasília (UnB) studiert hat. Ich bin eine Person, die immer etwas Neues wissen will, die Schwierigkeiten hat, Ziele zu erreichen und neue Horizonte erreichen will.",
+    "im": "Ich bin ",
+    "imAbout": "Wer bin ich?",
+    "descriptionAbout" : "Ich bin ein ruhiger Typ mit dem Wunsch zu arbeiten, einer Leidenschaft für das Programmieren und neuen Kenntnissen und Erfahrungen. Ich mag Projekte, von der Initiierungsphase bis zur Abschlussphase. Ich arbeite zurzeit nicht, aber ich habe den Wunsch, wieder mit Software zu arbeiten. Hat den Wunsch, in einem anderen Land zu arbeiten und zu leben.",
+    "contactAbout": "Kontakt",
+    "name": "Victor Hugo Lopes Mota",
+    "email": "victormota042@gmail.com",
+    "phone": "+55 (61) 99459-2869",
+    "street":"Samambaia Norte",
+    "city":"Brasília",
+    "state":"Brasilien",
+    "zip": "72322-006",
+    "education": "Bildung"
+}

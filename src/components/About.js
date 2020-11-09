@@ -1,49 +1,53 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 
 class About extends Component {
-  
+
 	render() {
 
-		if(this.props.data){
-			var name = this.props.data.name;
-			var profilepic= 'images/' + this.props.data.image;
-			var bio = this.props.data.bio;
-			var city = this.props.data.address.city;
-			var state = this.props.data.address.state;
-			var zip = this.props.data.address.zip;
-			var phone= this.props.data.phone;
-			var email = this.props.data.email;
-			var resumeDownload = this.props.data.resumedownload;
-		}
+		const Profile_pic = '/images/profile_pic.jpg';
+		const CV_download_Brazil = '/files/CV_Victor_Mota_Brazil.pdf';
+		const CV_download_International = '/files/CV_Victor_Mota_International.pdf';
 
-			return (
-				<section id = 'about'>
+		return (
+			<section id = 'about'>
 				<div className = 'row'>
 					<div className = 'three columns'>
-						<img className = 'profile-pic'  src = { profilepic } alt = 'profile-victor' />
+						<img className = 'profile-pic'  src = { Profile_pic } alt = 'profile-victor' />
 					</div>
 					<div className = 'nine columns main-col'>
-						<h2>Quem Sou?</h2>
-						<p> { bio } </p>
+						<h2> <FormattedMessage id = 'imAbout' /> </h2>
+						<p> <FormattedMessage id = 'descriptionAbout' /> </p>
 						<div className = 'row'>
 							<div className = 'columns contact-details'>
-								<h2> Contato </h2>
+								<h2> <FormattedMessage id = 'contactAbout' /> </h2>
 								<p className = 'address'>
-									<span> { name } </span><br />
-									<span> { city } <br />
-										{state}, {zip}
+									<span> <FormattedMessage id = 'name' /> </span><br />
+									<span> <FormattedMessage id = 'city' /> <br />
+									<FormattedMessage id = 'state' />, <FormattedMessage id = 'zip' />
 									</span><br />
-									<span> { phone } </span><br />
+									<span> <FormattedMessage id = 'city' /> <br />
+									<FormattedMessage id = 'phone' /> </span><br />
 									<span>
-										<a href = 'mailto:victormota042@gmail.com'> { email }</a>
+										<a href = 'mailto:victormota042@gmail.com'> <FormattedMessage id = 'email' /></a>
 									</span>
 								</p>
 							</div>
 							<div className = 'columns download'>
 								<p>
-									<a href = { resumeDownload } className = 'button' 					target = '_blank'>
-										<i className = 'fa fa-download'></i>Download CV
-									</a>
+									{
+										this.props.state === 'pt-br' ? (
+											<a href = { CV_download_Brazil } 
+												className = 'button' target = '_blank'>
+												<i className = 'fa fa-download'></i>Download CV
+											</a>
+										) : (
+											<a href = { CV_download_International } 
+												className = 'button' target = '_blank'>
+												<i className = 'fa fa-download'></i>Download CV
+											</a>
+										)
+									}
 								</p>
 							</div>
 						</div>
