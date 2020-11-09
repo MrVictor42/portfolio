@@ -165,9 +165,9 @@ ul#nav li {
 
 ul#nav img {
    position: relative;
-   height: 40px;
+   height: 20px;
    display: inline-block;
-   padding-top: 20px;
+   top: 5px;
    margin-left: 20px;
 }
 

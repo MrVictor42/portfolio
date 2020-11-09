@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import defaultMessages from '../message/message';
-
 class Header extends Component {
 
-	render() {
+	constructor(props) {
+		super(props)
+		
+		this.changeLanguage = this.changeLanguage.bind(this);
+	}
+	
 
+	changeLanguage = (lang) => {
+        this.props.onChange(lang)
+    }
+
+	render() {
 		if(this.props.data){
 			var name = this.props.data.name;
-			var description = this.props.data.description;
 			var networks = this.props.data.social.map(function(network){
 				return <li key = { network.name }>
 					<a href = { network.url }>
@@ -17,13 +24,11 @@ class Header extends Component {
 					</a>
 				</li>
 			})
-			var images = this.props.data.flags.map(function(images){
-				var imagesFlags = 'images/flags/' + images.image;
-				return <a href = { images.abreviation }>
-					<img src = { imagesFlags } alt = { images.title } />
-				</a> 
-			})
 		}
+
+		const Brazil = 'images/flags/brazil.png';
+		const Germany = 'images/flags/germany.svg';
+		const EUA = 'images/flags/eua.png';
 
     	return (
 			<header id = 'home'>
@@ -39,38 +44,40 @@ class Header extends Component {
 
 					<ul id = 'nav' className = 'nav'>
 						<li className = 'current'>
-							<a className = 'smoothscroll' href = '#home'>								<FormattedMessage id = "home" 
-									defaultMessage = { defaultMessages.header.home } 
-								/>
+							<a className = 'smoothscroll' href = '#home'>								<FormattedMessage id = 'home' />
 							</a>
 						</li>
 						<li>
 							<a className = 'smoothscroll' href = '#about'>
-								<FormattedMessage id = "about" 
-									defaultMessage = { defaultMessages.header.about } 
-								/>
+								<FormattedMessage id = 'about' />
 							</a>
 						</li>
 						<li>
 							<a className = 'smoothscroll' href = '#resume'>
-								<FormattedMessage id = "resume" 
-									defaultMessage = { defaultMessages.header.resume } 
-								/></a>
+								<FormattedMessage id = 'resume' />
+							</a>
 						</li>
 						<li>
 							<a className = 'smoothscroll' href = '#portfolio'>
-								<FormattedMessage id = "work" 
-									defaultMessage = { defaultMessages.header.work } 
-								/></a>
+								<FormattedMessage id = 'work' />
+							</a>
 						</li>
-						{ images } 
+						<span id = 'brazil' onClick = {() => this.changeLanguage('pt-br')}>
+							<img src = { Brazil } alt = 'Brasil/Brazil'/>
+						</span>
+						<span id = 'eua' onClick = {() => this.changeLanguage('en-us')}>
+							<img src = { EUA } alt = 'Eua'/>
+						</span>
+						<span id = 'germany' onClick = {() => this.changeLanguage('de-de')}>
+							<img src = { Germany } alt = 'Alemanha/Germany'/>
+						</span>
 					</ul>
 				</nav>
 
 				<div className = 'row banner'>
 					<div className = 'banner-text'>
-						<h1 className = 'responsive-headline'>Eu sou {name}.</h1>
-						<h3> { description } </h3>
+						<h1 className = 'responsive-headline'> { name } </h1>
+						<h3> <FormattedMessage id = 'description' /> </h3>
 						<hr />
 						<ul className = "social"> { networks } </ul>
 					</div>
