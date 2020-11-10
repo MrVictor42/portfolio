@@ -10,6 +10,8 @@ import About from '../components/About';
 import Resume from '../components/Resume';
 import Portfolio from '../components/Portfolio';
 import Footer from '../components/Footer';
+import consts from '../jsons/consts.json';
+
 
 export default function languageProvider(props) {
     const [locale, setLocale] = useState('pt-br');
@@ -34,11 +36,11 @@ export default function languageProvider(props) {
 
     return(
         <IntlProvider locale = { locale } messages = { lang }>
-            <Header data = { props.data } onChange = { changeLanguage } />
-            <About state = { locale } />
-            <Resume data = { props.resume } />
-            <Portfolio data = { props.portfolio } />
-            <Footer data = { props.data }/>
+            <Header onChange = { changeLanguage } consts = { consts }/>
+            <About country = { locale } />
+            <Resume country = { locale } />
+            <Portfolio country = { locale } />
+            <Footer country = { locale } consts = { consts } />
         </IntlProvider>
     );
 }

@@ -2,7 +2,7 @@
     "home" : "Home",
     "about" : "About",
     "resume" : "Resume",
-    "work": "Work",
+    "work": "Works",
     "description": "I'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). I am a person who always seeks to know something new, who struggles to achieve goals and wants to reach new horizons.",
     "im": "I'm ",
     "imAbout": "Who am I?",
@@ -15,5 +15,94 @@
     "city":"Brasília",
     "state":"Brazil",
     "zip": "72322-006",
-    "education": "Education"
+    "education": "Education",
+    "works": "Works",
+    "tecnologies": "Tecnologies",
+    "resumeResume":{
+        "skillmessage":"I always seek to learn new technologies, but these are the ones that interest me the most and have the most knowledge about",
+        "education":[
+          {
+            "school":"University of Brasilia",
+            "degree":"Bachelor of Software Engineering",
+            "graduated":"December 2020",
+            "description":"In 2013, I passed the entrance exam for the Software Engineering course at UnB, on the Gama campus. It was my first contact with the program and at the beginning it was very difficult, but as time went on, I was enjoying the course more and more and managed to graduate. In this course, I learned from the basics of programming, to project development, going through all phases, from initiation to closure. I learned about projects, how to program, work in groups, trust people and overcome my fears and insecurities more and more."
+          }
+        ],
+        "work":[
+          {
+            "company":"Senado Federal",
+            "title": "Intern",
+            "years": "August 2017 - August 2019",
+            "description": "In the Senate, I worked more with frontend, so it was during this time that I learned more about CSS, Javascript and mainly about processes. As there are many projects in the public sector, one of the things my supervisors taught me the most was working with process modeling, and how to follow its phases. It was an incredible two years."
+          },
+          {
+            "company":"Banco do Brasil",
+            "title":"Intern",
+            "years":"September 2019 - December 2019",
+            "description":"At Banco do Brasil, it was a shorter time, as this semester I was working on the course completion work and it was very difficult to reconcile the University, TCC and internship. In this company, I worked with a development of an internal tool of the bank, using Java Web, with the help of Hibernate in the database."
+          }
+        ],
+        "skills":[
+          {
+            "name":"Git",
+            "description":"I use git for any project. I have used git to control I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+            "image":"git.jpg"
+          },
+          {
+            "name":"Java",
+            "description":"Java was the first language that I really liked and that I still knew in college. It is one of the languages that is most familiar in terms of structure and design patterns. Because it is an older language, it has a lot of help on the internet and a community that is still active.",
+            "image":"java.jpg"
+          },
+          {
+            "name":"React Js",
+            "description":"Initially I didn't like the language very much, but as I saw friends using it, I decided to give it one more chance and I didn't regret the choice. It is an incredible language, with a large active community, different types of jobs and solved problems.",
+            "image":"react.jpg"
+          },
+          {
+            "name":"Python Django",
+            "description":"At first, I found the language a little strange, but over time, I started to like the language a lot. Even with the possibility of being able to do both the backend, as the frontend all with python django, I liked the option of using only the backend as API Rest, which was the option I used in the development of my TCC.",
+            "image":"python_django.svg"
+          },
+    
+          {
+            "name":"Docker",
+            "description":"I met this technology in a college discipline and was impressed by how good it is. Since then, in practically all of my projects, I use a docker and this has considerably reduced the environment configuration problems I had in the projects I participated in.",
+            "image":"docker.jpg"
+          },
+          {
+            "name":"Bootstrap 4",
+            "description":"I used Bootstrap, in one of the projects that I liked most to have participated in and in smaller projects. I like the number of examples that the site makes available and the amount of cool things that can be done.",
+            "image":"bootstrap.jpg"
+          },
+          {
+            "name":"Heroku",
+            "description":"I used heroku as a free online hosting platform for my tcc and another college job. It is reasonably easy to set up and use and for these reasons, I like it a lot.",
+            "image":"heroku.jpg"
+          }
+        ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Grata - Management of Meetings and Minutes",
+          "category":"My Course Completion Project",
+          "image":"react.jpg",
+          "url":"https://grata-frontend.herokuapp.com/"
+        },
+        {
+          "title":"Escola X",
+          "category":"Project Helped to Help a Public School in the Federal District",
+          "image":"escolaX.png",
+          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
+        },
+        {
+          "title":"Open Plate",
+          "category":"Open Source Contribution",
+          "image":"sp.svg",
+          "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
+        }
+      ]
+    },
+  "worksParticipated": "Some of the Projects I Participated",
+  "footerBased": " Based on Tim Baker's Template"
 }

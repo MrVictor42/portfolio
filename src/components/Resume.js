@@ -1,39 +1,63 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
+
+import ptBr from '../jsons/translations/pt-br.json';
+import enUs from '../jsons/translations/en-us.json';
+import dede from '../jsons/translations/de-de.json';
 
 class Resume extends Component {
   
 	render() {
 
-		if(this.props.data){
-			var skillmessage = this.props.data.skillmessage;
-			var education = this.props.data.education.map(function(education){
-				return <div key = { education.school }>
-					<h3> { education.school } </h3>
-					<p className = 'info'> { education.degree } <span>&bull;</span><em 			className = 'date'> { education.graduated } </em></p>
-					<p> { education.description } </p></div>
-				})
-			var work = this.props.data.work.map(function(work){
-				return <div key = { work.company }>
-					<h3> { work.company } </h3>
-					<p className = 'info'> { work.title } <span>&bull;</span> <em className = 'date'>{ work.years }</em></p>
-					<p className = 'newline'> { work.description }</p>
-				</div>
-			})
-			var skills = this.props.data.skills.map(function(skills){
-			var projectImage = 'images/tech/'+skills.image;
-				return <div key = { skills.name } className = 'columns feature-item'>
-						<img className = 'skill' alt = { skills.name } src = { projectImage } />
-						<h5> { skills.name } </h5>
-						<p> { skills.description }</p>
+		let resume = '';
+
+		switch(this.props.country) {
+			case 'pt-br':
+				resume = ptBr.resumeResume;
+				break;
+			case 'en-us':
+				resume = enUs.resumeResume;
+				break;
+			case 'de-de':
+				resume = dede.resumeResume;
+				break;
+			default:
+				resume = ptBr.resumeResume;
+		}
+
+		var skillmessage = resume.skillmessage;
+		var education = resume.education.map(function(education) {
+			return <div key = { education.school }>
+						<h3> { education.school } </h3>
+						<p className = 'info'> { education.degree } <span>&bull;</span>
+							<em className = 'date'> { education.graduated } </em>
+						</p>
+						<p> { education.description } </p>
 					</div>
 			})
-		}
+		var work = resume.work.map(function(work) {
+			return <div key = { work.company }>
+						<h3> { work.company } </h3>
+						<p className = 'info'> { work.title } <span>&bull;</span> 
+							<em className = 'date'> { work.years } </em>
+						</p>
+						<p className = 'newline'> { work.description }</p>
+					</div>
+			})
+		var skills = resume.skills.map(function(skills) {
+			var projectImage = 'images/tech/' + skills.image;
+			return <div key = { skills.name } className = 'columns feature-item'>
+						<img className = 'skill' alt = { skills.name } src = { projectImage } />
+						<h5> { skills.name } </h5>
+					<p> { skills.description }</p>
+				</div>
+		})
 
     	return (
 			<section id = 'resume'>
 				<div className = 'row education'>
 					<div className = 'three columns header-col'>
-						<h1><span> Educação </span></h1>
+						<h1><span> <FormattedMessage id = 'education' /> </span></h1>
 					</div>
 					<div className = 'nine columns main-col'>
 						<div className = 'row item'>
@@ -46,7 +70,7 @@ class Resume extends Component {
 
 				<div className = 'row work'>
 					<div className = 'three columns header-col'>
-						<h1><span> Trabalhos </span></h1>
+						<h1><span> <FormattedMessage id = 'works' /> </span></h1>
 					</div>
 					<div className='nine columns main-col'>
 						{ work }
@@ -55,7 +79,7 @@ class Resume extends Component {
 
 				<div className = 'row skill'>
 					<div className = 'three columns header-col'>
-						<h1><span> Tecnologias </span></h1>
+						<h1><span> <FormattedMessage id = 'tecnologies' /> </span></h1>
 					</div>
 					<div>
 						<div className = 'nine columns main-col'>

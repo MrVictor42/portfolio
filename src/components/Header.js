@@ -9,25 +9,24 @@ class Header extends Component {
 		this.changeLanguage = this.changeLanguage.bind(this);
 	}
 	
-
 	changeLanguage = (lang) => {
         this.props.onChange(lang)
     }
 
 	render() {
-		if(this.props.data){
-			var networks = this.props.data.social.map(function(network){
-				return <li key = { network.name }>
-					<a href = { network.url }>
-						<i className = { network.className }></i>
-					</a>
-				</li>
-			})
-		}
 
+		const Social = this.props.consts.social;
 		const Brazil = 'images/flags/brazil.png';
 		const Germany = 'images/flags/germany.svg';
 		const EUA = 'images/flags/eua.png';
+
+		var networks = Social.map(function(network){
+			return <li key = { network.name }>
+				<a href = { network.url }>
+					<i className = { network.className }></i>
+				</a>
+			</li>
+		})
 
     	return (
 			<header id = 'home'>
@@ -76,11 +75,12 @@ class Header extends Component {
 				<div className = 'row banner'>
 					<div className = 'banner-text'>
 						<h1 className = 'responsive-headline'> 
-							<FormattedMessage id = 'im' /> <FormattedMessage id = 'name' /> 
+							<FormattedMessage id = 'im' /> 
+							<FormattedMessage id = 'name' /> 
 						</h1>
 						<h3> <FormattedMessage id = 'description' /> </h3>
 						<hr />
-						<ul className = "social"> { networks } </ul>
+						<ul className = 'social'> { networks } </ul>
 					</div>
 				</div>
 

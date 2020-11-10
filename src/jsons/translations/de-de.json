@@ -2,7 +2,7 @@
     "home" : "Home",
     "about" : "Wer bin ich?",
     "resume" : "Zusammenfassung",
-    "work": "Job",
+    "work": "Jobs",
     "description": "Ich komme aus Brasilia, Brasilien. Ich bin ein Software-Ingenieur, der an der Universität von Brasília (UnB) studiert hat. Ich bin eine Person, die immer etwas Neues wissen will, die Schwierigkeiten hat, Ziele zu erreichen und neue Horizonte erreichen will.",
     "im": "Ich bin ",
     "imAbout": "Wer bin ich?",
@@ -15,5 +15,94 @@
     "city":"Brasília",
     "state":"Brasilien",
     "zip": "72322-006",
-    "education": "Bildung"
+    "education": "Bildung",
+    "works": "Funktioniert",
+    "tecnologies": "Technologien",
+    "resumeResume":{
+        "skillmessage":"Ich versuche immer, neue Technologien zu lernen, aber diese interessieren mich am meisten und haben das meiste Wissen darüber",
+        "education":[
+          {
+            "school":"Universität von Brasilia",
+            "degree":"Bachelor of Software Engineering",
+            "graduated":"Dezember 2020",
+            "description":"2013 habe ich die Aufnahmeprüfung für den Kurs Software Engineering an der UnB auf dem Gama-Campus bestanden. Es war mein erster Kontakt mit dem Programm und am Anfang war es sehr schwierig, aber im Laufe der Zeit genoss ich den Kurs immer mehr und schaffte es, meinen Abschluss zu machen. In diesem Kurs habe ich von den Grundlagen der Programmierung bis zur Projektentwicklung gelernt und alle Phasen von der Initiierung bis zum Abschluss durchlaufen. Ich lernte mehr über Projekte, wie man programmiert, in Gruppen arbeitet, Menschen vertraut und meine Ängste und Unsicherheiten immer mehr überwindet."
+          }
+        ],
+        "work":[
+          {
+            "company":"Senado Federal",
+            "title": "Praktikant",
+            "years": "August 2017 - August 2019",
+            "description": "Im Senat habe ich mehr mit Frontend gearbeitet, daher habe ich in dieser Zeit mehr über CSS, Javascript und hauptsächlich über Prozesse gelernt. Da es im öffentlichen Sektor viele Projekte gibt, lehrten mich meine Vorgesetzten am meisten, mit der Prozessmodellierung zu arbeiten und wie man ihre Phasen verfolgt. Es waren unglaubliche zwei Jahre."
+          },
+          {
+            "company":"Banco do Brasil",
+            "title":"Praktikant",
+            "years":"September 2019 - Dezember 2019",
+            "description":"Bei der Banco do Brasil war es eine kürzere Zeit, da ich in diesem Semester an der Fertigstellung des Kurses arbeitete und es sehr schwierig war, Universität, TCC und Praktikum in Einklang zu bringen. In dieser Firma arbeitete ich mit Hilfe von Hibernate in der Datenbank an der Entwicklung eines internen Tools der Bank unter Verwendung von Java Web."
+          }
+        ],
+        "skills":[
+          {
+            "name":"Git",
+            "description":"Ich benutze Git für jedes Projekt. Ich habe Git verwendet, um zu steuern, dass ich Git bisher für alle meine Projekte verwende. Ich habe Git für die Versionskontrolle in kleinen Teams verwendet und mit Open Source-Projekten herumgespielt.",
+            "image":"git.jpg"
+          },
+          {
+            "name":"Java",
+            "description":"Java war die erste Sprache, die ich wirklich mochte und die ich im College noch kannte. Es ist eine der Sprachen, die in Bezug auf Struktur und Designmuster am bekanntesten ist. Da es sich um eine ältere Sprache handelt, gibt es im Internet viel Hilfe und eine Community, die immer noch aktiv ist.",
+            "image":"java.jpg"
+          },
+          {
+            "name":"React Js",
+            "description":"Anfangs mochte ich die Sprache nicht sehr, aber als ich Freunde sah, die sie benutzten, beschloss ich, ihr noch eine Chance zu geben, und ich bereute die Wahl nicht. Es ist eine unglaubliche Sprache mit einer großen aktiven Community, verschiedenen Arten von Jobs und gelösten Problemen.",
+            "image":"react.jpg"
+          },
+          {
+            "name":"Python Django",
+            "description":"Anfangs fand ich die Sprache etwas seltsam, aber im Laufe der Zeit fing ich an, die Sprache sehr zu mögen. Selbst mit der Möglichkeit, sowohl das Backend als auch das Frontend mit Python Django ausführen zu können, gefiel mir die Option, nur das Backend als API Rest zu verwenden, was ich bei der Entwicklung meiner TCC verwendet habe.",
+            "image":"python_django.svg"
+          },
+    
+          {
+            "name":"Docker",
+            "description":"Ich habe diese Technologie in einer College-Disziplin kennengelernt und war beeindruckt, wie gut sie ist. Seitdem verwende ich in praktisch allen meinen Projekten einen Docker, was die Probleme bei der Umgebungskonfiguration, an denen ich in den Projekten teilgenommen habe, erheblich verringert hat.",
+            "image":"docker.jpg"
+          },
+          {
+            "name":"Bootstrap 4",
+            "description":"Ich habe Bootstrap in einem der Projekte verwendet, an denen ich am liebsten teilgenommen habe, und in kleineren Projekten. Ich mag die Menge an Beispielen, die die Site zur Verfügung stellt, und die Menge an coolen Dingen, die getan werden können.",
+            "image":"bootstrap.jpg"
+          },
+          {
+            "name":"Heroku",
+            "description":"Ich habe Heroku als kostenlose Online-Hosting-Plattform für meinen Tcc und einen anderen College-Job verwendet. Es ist ziemlich einfach einzurichten und zu verwenden und aus diesen Gründen gefällt es mir sehr gut.",
+            "image":"heroku.jpg"
+          }
+        ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Grata - Verwaltung von Sitzungen und Protokollen",
+          "category":"Mein Kursabschlussprojekt",
+          "image":"react.jpg",
+          "url":"https://grata-frontend.herokuapp.com/"
+        },
+        {
+          "title":"Escola X",
+          "category":"Projekt half einer öffentlichen Schule im Bundesdistrikt zu helfen",
+          "image":"escolaX.png",
+          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
+        },
+        {
+          "title":"Platte öffnen",
+          "category":"Open Source-Beitrag",
+          "image":"sp.svg",
+          "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
+        }
+      ]
+    },
+    "worksParticipated": "Einige der Projekte, an denen ich teilgenommen habe",
+    "footerBased": " Basierend auf Tim Bakers Vorlage"
 }

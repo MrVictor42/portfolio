@@ -5,7 +5,7 @@ class About extends Component {
 
 	render() {
 
-		const Profile_pic = '/images/profile_pic.jpg';
+		const Profile_pic = 'images/profile_pic.jpg';
 		const CV_download_Brazil = '/files/CV_Victor_Mota_Brazil.pdf';
 		const CV_download_International = '/files/CV_Victor_Mota_International.pdf';
 
@@ -23,31 +23,19 @@ class About extends Component {
 								<h2> <FormattedMessage id = 'contactAbout' /> </h2>
 								<p className = 'address'>
 									<span> <FormattedMessage id = 'name' /> </span><br />
-									<span> <FormattedMessage id = 'city' /> <br />
-									<FormattedMessage id = 'state' />, <FormattedMessage id = 'zip' />
+									<span> 
+										<FormattedMessage id = 'city' /> <br />
+										<FormattedMessage id = 'state' />,  
+										<FormattedMessage id = 'zip' />
 									</span><br />
-									<span> <FormattedMessage id = 'city' /> <br />
-									<FormattedMessage id = 'phone' /> </span><br />
+									<span> 
+										<FormattedMessage id = 'city' /> <br />
+										<FormattedMessage id = 'phone' /> </span><br />
 									<span>
-										<a href = 'mailto:victormota042@gmail.com'> <FormattedMessage id = 'email' /></a>
+										<a href = 'mailto:victormota042@gmail.com'> 
+											<FormattedMessage 	id = 'email' />
+										</a>
 									</span>
-								</p>
-							</div>
-							<div className = 'columns download'>
-								<p>
-									{
-										this.props.state === 'pt-br' ? (
-											<a href = { CV_download_Brazil } 
-												className = 'button' target = '_blank'>
-												<i className = 'fa fa-download'></i>Download CV
-											</a>
-										) : (
-											<a href = { CV_download_International } 
-												className = 'button' target = '_blank'>
-												<i className = 'fa fa-download'></i>Download CV
-											</a>
-										)
-									}
 								</p>
 							</div>
 						</div>
