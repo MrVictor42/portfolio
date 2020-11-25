@@ -26,6 +26,7 @@ class Resume extends Component {
 		}
 
 		var skillmessage = resume.skillmessage;
+
 		var education = resume.education.map(function(education) {
 			return <div key = { education.school }>
 						<h3> { education.school } </h3>
@@ -33,8 +34,27 @@ class Resume extends Component {
 							<em className = 'date'> { education.graduated } </em>
 						</p>
 						<p> { education.description } </p>
+						
 					</div>
 			})
+
+		var certifications = resume.certification.map(function(certification){
+			var certificationImage = 'images/certifications/' + certification.image
+			return <div key = { certification.school } className = 'certifications'>
+						<h3> { certification.school } </h3>
+						<p className = 'info'> { certification.degree } <span>&bull;</span>
+							<em className = 'date'> { certification.graduated } </em>
+						</p>
+						<p> { certification.description } </p>
+						<a href = { certification.link }> { certification.descriptionTeacher } </a>
+						<img 
+							className = 'skill' 
+							alt = { certification.degree } 
+							src = { certificationImage }
+						/>
+					</div>
+			})
+
 		var work = resume.work.map(function(work) {
 			return <div key = { work.company }>
 						<h3> { work.company } </h3>
@@ -44,6 +64,7 @@ class Resume extends Component {
 						<p className = 'newline'> { work.description }</p>
 					</div>
 			})
+
 		var skills = resume.skills.map(function(skills) {
 			var projectImage = 'images/tech/' + skills.image;
 			return <div key = { skills.name } className = 'columns feature-item'>
@@ -63,6 +84,19 @@ class Resume extends Component {
 						<div className = 'row item'>
 							<div className = 'twelve columns'>
 								{ education }
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className = 'row certification'>
+					<div className = 'three columns header-col'>
+						<h1><span> <FormattedMessage id = 'certifications' /> </span></h1>
+					</div>
+					<div className = 'nine columns main-col'>
+						<div className = 'row item'>
+							<div className = 'twelve columns'>
+								{ certifications }
 							</div>
 						</div>
 					</div>

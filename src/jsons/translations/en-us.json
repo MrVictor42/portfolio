@@ -3,10 +3,10 @@
     "about" : "About",
     "resume" : "Resume",
     "work": "Works",
-    "description": "I'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). I am a person who always seeks to know something new, who struggles to achieve goals and wants to reach new horizons.",
+    "description": "I'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). Always looking for new challenges and new horizons.",
     "im": "I'm ",
     "imAbout": "Who am I?",
-    "descriptionAbout" : "I'm a calm guy, with a desire to work, a passion for programming and new knowledge and experiences. I like projects, from their initiation phase to the closing phase. I am not currently working, but I have the desire to return to working with software. Has the desire to work and live in another country.",
+    "descriptionAbout" : "I'm a calm guy, with a desire to work, a passion for programming and new knowledge and experiences. I like projects, from their initiation phase to the closing phase. I am not currently working, and dreams of working with software, helping my family and living in another country.",
     "contactAbout": "Contact",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -18,6 +18,7 @@
     "education": "Education",
     "works": "Works",
     "tecnologies": "Tecnologies",
+    "certifications" : "Certifications", 
     "resumeResume":{
         "skillmessage":"I always seek to learn new technologies, but these are the ones that interest me the most and have the most knowledge about",
         "education":[
@@ -25,7 +26,27 @@
             "school":"University of Brasilia",
             "degree":"Bachelor of Software Engineering",
             "graduated":"December 2020",
-            "description":"In 2013, I passed the entrance exam for the Software Engineering course at UnB, on the Gama campus. It was my first contact with the program and at the beginning it was very difficult, but as time went on, I was enjoying the course more and more and managed to graduate. In this course, I learned from the basics of programming, to project development, going through all phases, from initiation to closure. I learned about projects, how to program, work in groups, trust people and overcome my fears and insecurities more and more."
+            "description":"In 2013, I passed the entrance exam for the Software Engineering course at UnB, on the Gama campus. It was my first contact with the program and at the beginning it was very difficult, but as time went on, I was enjoying the course more and more and managed to graduate. During graduation, I learned from the basics of programming to project development, project management, teamwork, trusting people and overcoming my fears and insecurities more."
+          }
+        ],
+        "certification":[
+          {
+            "school": "University of Brasilia",
+            "degree": "Java Web Programming Certificate",
+            "graduated": "March 2017",
+            "description": "In 2017, I had the opportunity to participate in an extension course, in programming, using Java Web. The course was taught by Dr. Vandor Roberto Vilardi Rissoli. The course was very good, because until then I only used Java for desktop applications, most of the time related to the Object Orientation discipline. It was very good to acquire this knowledge.",
+            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
+            "image": "certificado_java_web.jpg",
+            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+          },
+          {
+            "school": "Udemy",
+            "degree": "GoLang Certified",
+            "graduated": "November 2020",
+            "description": "In October 2020, in order to embark on new challenges, I bought a GoLang course at Udemy. The teacher explained the course very well and I liked the language.",
+            "link": "https://www.udemy.com/course/curso-go/",
+            "image": "certificado_golang.jpg",
+            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
           }
         ],
         "work":[
@@ -39,13 +60,13 @@
             "company":"Banco do Brasil",
             "title":"Intern",
             "years":"September 2019 - December 2019",
-            "description":"At Banco do Brasil, it was a shorter time, as this semester I was working on the course completion work and it was very difficult to reconcile the University, TCC and internship. In this company, I worked with a development of an internal tool of the bank, using Java Web, with the help of Hibernate in the database."
+            "description":"At Banco do Brasil, it was a shorter time, and while I worked at this institution, I had the opportunity to use knowledge I acquired in the JavaWeb extension course and learned more about how to use the Hibernate and Spring framework."
           }
         ],
         "skills":[
           {
             "name":"Git",
-            "description":"I use git for any project. I have used git to control I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+            "description":"I use git for any project. I have used this version control tool for all the projects I have participated in so far. I used Git to version control small teams and even contribute to open source projects.",
             "image":"git.jpg"
           },
           {

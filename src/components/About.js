@@ -6,8 +6,6 @@ class About extends Component {
 	render() {
 
 		const Profile_pic = 'images/profile_pic.jpg';
-		const CV_download_Brazil = '/files/CV_Victor_Mota_Brazil.pdf';
-		const CV_download_International = '/files/CV_Victor_Mota_International.pdf';
 
 		return (
 			<section id = 'about'>

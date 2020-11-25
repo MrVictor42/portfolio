@@ -3,10 +3,10 @@
     "about" : "Wer bin ich?",
     "resume" : "Zusammenfassung",
     "work": "Jobs",
-    "description": "Ich komme aus Brasilia, Brasilien. Ich bin ein Software-Ingenieur, der an der Universität von Brasília (UnB) studiert hat. Ich bin eine Person, die immer etwas Neues wissen will, die Schwierigkeiten hat, Ziele zu erreichen und neue Horizonte erreichen will.",
+    "description": "Ich komme aus Brasilia, Brasilien. Ich bin ein Software-Ingenieur, der an der Universität von Brasília (UnB) studiert hat. Immer auf der Suche nach neuen Herausforderungen und neuen Horizonten.",
     "im": "Ich bin ",
     "imAbout": "Wer bin ich?",
-    "descriptionAbout" : "Ich bin ein ruhiger Typ mit dem Wunsch zu arbeiten, einer Leidenschaft für das Programmieren und neuen Kenntnissen und Erfahrungen. Ich mag Projekte, von der Initiierungsphase bis zur Abschlussphase. Ich arbeite zurzeit nicht, aber ich habe den Wunsch, wieder mit Software zu arbeiten. Hat den Wunsch, in einem anderen Land zu arbeiten und zu leben.",
+    "descriptionAbout" : "Ich bin ein ruhiger Typ mit dem Wunsch zu arbeiten, einer Leidenschaft für das Programmieren und neuen Kenntnissen und Erfahrungen. Ich mag Projekte, von der Initiierungsphase bis zur Abschlussphase. Ich arbeite zurzeit nicht und träume davon, mit Software zu arbeiten, meiner Familie zu helfen und in einem anderen Land zu leben.",
     "contactAbout": "Kontakt",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -18,6 +18,7 @@
     "education": "Bildung",
     "works": "Funktioniert",
     "tecnologies": "Technologien",
+    "certifications" : "Zertifizierungen", 
     "resumeResume":{
         "skillmessage":"Ich versuche immer, neue Technologien zu lernen, aber diese interessieren mich am meisten und haben das meiste Wissen darüber",
         "education":[
@@ -25,7 +26,27 @@
             "school":"Universität von Brasilia",
             "degree":"Bachelor of Software Engineering",
             "graduated":"Dezember 2020",
-            "description":"2013 habe ich die Aufnahmeprüfung für den Kurs Software Engineering an der UnB auf dem Gama-Campus bestanden. Es war mein erster Kontakt mit dem Programm und am Anfang war es sehr schwierig, aber im Laufe der Zeit genoss ich den Kurs immer mehr und schaffte es, meinen Abschluss zu machen. In diesem Kurs habe ich von den Grundlagen der Programmierung bis zur Projektentwicklung gelernt und alle Phasen von der Initiierung bis zum Abschluss durchlaufen. Ich lernte mehr über Projekte, wie man programmiert, in Gruppen arbeitet, Menschen vertraut und meine Ängste und Unsicherheiten immer mehr überwindet."
+            "description":"2013 habe ich die Aufnahmeprüfung für den Kurs Software Engineering an der UnB auf dem Gama-Campus bestanden. Es war mein erster Kontakt mit dem Programm und am Anfang war es sehr schwierig, aber im Laufe der Zeit genoss ich den Kurs immer mehr und schaffte es, meinen Abschluss zu machen. Während meines Studiums lernte ich von den Grundlagen der Programmierung über die Projektentwicklung, das Projektmanagement, die Teamarbeit, das Vertrauen in Menschen und die Überwindung meiner Ängste und Unsicherheiten immer mehr."
+          }
+        ],
+        "certification":[
+          {
+            "school": "Universität von Brasilia",
+            "degree": "Java Web Programming Zertifikat",
+            "graduated": "März 2017",
+            "description": "2017 hatte ich die Möglichkeit, an einem Erweiterungskurs in Programmierung mit Java Web teilzunehmen. Der Kurs wurde von Dr. Vandor Roberto Vilardi Rissoli unterrichtet. Der Kurs war sehr gut, da ich bis dahin nur Java für Desktop-Anwendungen verwendet habe, meistens im Zusammenhang mit der Disziplin Objektorientierung. Es war sehr gut, dieses Wissen zu erwerben.",
+            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
+            "image": "certificado_java_web.jpg",
+            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+          },
+          {
+            "school": "Udemy",
+            "degree": "GoLang-zertifiziert",
+            "graduated": "November 2020",
+            "description": "Im Oktober 2020 kaufte ich einen GoLang-Kurs bei Udemy, um mich neuen Herausforderungen zu stellen. Der Lehrer erklärte den Kurs sehr gut und ich mochte die Sprache.",
+            "link": "https://www.udemy.com/course/curso-go/",
+            "image": "certificado_golang.jpg",
+            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
           }
         ],
         "work":[
@@ -39,13 +60,13 @@
             "company":"Banco do Brasil",
             "title":"Praktikant",
             "years":"September 2019 - Dezember 2019",
-            "description":"Bei der Banco do Brasil war es eine kürzere Zeit, da ich in diesem Semester an der Fertigstellung des Kurses arbeitete und es sehr schwierig war, Universität, TCC und Praktikum in Einklang zu bringen. In dieser Firma arbeitete ich mit Hilfe von Hibernate in der Datenbank an der Entwicklung eines internen Tools der Bank unter Verwendung von Java Web."
+            "description":"Bei der Banco do Brasil war es eine kürzere Zeit, und während ich an dieser Institution arbeitete, hatte ich die Möglichkeit, die im JavaWeb-Erweiterungskurs erworbenen Kenntnisse zu nutzen und mehr über die Verwendung des Hibernate- und Spring-Frameworks zu erfahren."
           }
         ],
         "skills":[
           {
             "name":"Git",
-            "description":"Ich benutze Git für jedes Projekt. Ich habe Git verwendet, um zu steuern, dass ich Git bisher für alle meine Projekte verwende. Ich habe Git für die Versionskontrolle in kleinen Teams verwendet und mit Open Source-Projekten herumgespielt.",
+            "description":"Ich benutze Git für jedes Projekt. Ich habe dieses Tool zur Versionskontrolle für alle Projekte verwendet, an denen ich bisher teilgenommen habe. Ich habe Git zur Versionskontrolle in kleinen Teams und sogar als Beitrag zu Open Source-Projekten verwendet.",
             "image":"git.jpg"
           },
           {
