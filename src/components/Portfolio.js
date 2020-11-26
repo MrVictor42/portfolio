@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import ptBr from '../jsons/translations/pt-br.json';
 import enUs from '../jsons/translations/en-us.json';
 import dede from '../jsons/translations/de-de.json';
+import eses from '../jsons/translations/es-es.json';
 
 class Portfolio extends Component {
 
@@ -20,6 +21,9 @@ class Portfolio extends Component {
 				break;
 			case 'de-de':
 				portfolio = dede.portfolio.projects;
+				break;
+			case 'es-es':
+				portfolio = eses.portfolio.projects;
 				break;
 			default:
 				portfolio = ptBr.portfolio.projects;

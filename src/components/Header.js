@@ -19,6 +19,7 @@ class Header extends Component {
 		const Brazil = 'images/flags/brazil.png';
 		const Germany = 'images/flags/germany.svg';
 		const EUA = 'images/flags/eua.png';
+		const Spain = 'images/flags/spain.svg';
 
 		var networks = Social.map(function(network){
 			return <li key = { network.name }>
@@ -64,10 +65,13 @@ class Header extends Component {
 							<img src = { Brazil } alt = 'Brasil/Brazil'/>
 						</span>
 						<span id = 'eua' onClick = {() => this.changeLanguage('en-us')}>
-							<img src = { EUA } alt = 'Eua'/>
+							<img src = { EUA } alt = 'Estados Unidos/Eua'/>
 						</span>
 						<span id = 'germany' onClick = {() => this.changeLanguage('de-de')}>
 							<img src = { Germany } alt = 'Alemanha/Germany'/>
+						</span>
+						<span id = 'spain' onClick = {() => this.changeLanguage('es-es')}>
+							<img src = { Spain } alt = 'Espanha/Spain'/>
 						</span>
 					</ul>
 				</nav>

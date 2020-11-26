@@ -4,6 +4,7 @@ import { IntlProvider } from 'react-intl';
 import Portuguese from '../jsons/translations/pt-br.json';
 import English from '../jsons/translations/en-us.json';
 import Germany from '../jsons/translations/de-de.json';
+import Spanish from '../jsons/translations/es-es.json';
 
 import Header from '../components/Header';
 import About from '../components/About';
@@ -29,6 +30,9 @@ export default function languageProvider(props) {
             case 'de-de':
                 setLang(Germany);
                 break;
+            case 'es-es':
+                setLang(Spanish);
+                break;
             default: 
                 setLang(Portuguese)
         }
@@ -37,7 +41,7 @@ export default function languageProvider(props) {
     return(
         <IntlProvider locale = { locale } messages = { lang }>
             <Header onChange = { changeLanguage } consts = { consts }/>
-            <About country = { locale } />
+            <About />
             <Resume country = { locale } />
             <Portfolio country = { locale } />
             <Footer country = { locale } consts = { consts } />

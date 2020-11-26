@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import ptBr from '../jsons/translations/pt-br.json';
 import enUs from '../jsons/translations/en-us.json';
 import dede from '../jsons/translations/de-de.json';
+import eses from '../jsons/translations/es-es.json';
 
 class Resume extends Component {
   
@@ -20,6 +21,9 @@ class Resume extends Component {
 				break;
 			case 'de-de':
 				resume = dede.resumeResume;
+				break;
+			case 'es-es':
+				resume = eses.resumeResume;
 				break;
 			default:
 				resume = ptBr.resumeResume;
