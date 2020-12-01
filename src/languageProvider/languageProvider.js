@@ -5,6 +5,8 @@ import Portuguese from '../jsons/translations/pt-br.json';
 import English from '../jsons/translations/en-us.json';
 import Germany from '../jsons/translations/de-de.json';
 import Spanish from '../jsons/translations/es-es.json';
+import Italy from '../jsons/translations/it-it.json';
+import France from '../jsons/translations/fr-fr.json';
 
 import Header from '../components/Header';
 import About from '../components/About';
@@ -33,6 +35,12 @@ export default function languageProvider(props) {
             case 'es-es':
                 setLang(Spanish);
                 break;
+            case 'it-it':
+                setLang(Italy);
+                break;
+            case 'fr-fr':
+                setLang(France);
+                break;
             default: 
                 setLang(Portuguese)
         }
@@ -44,7 +52,7 @@ export default function languageProvider(props) {
             <About />
             <Resume country = { locale } />
             <Portfolio country = { locale } />
-            <Footer country = { locale } consts = { consts } />
+            <Footer consts = { consts } />
         </IntlProvider>
     );
 }

@@ -1,0 +1,129 @@
+{
+    "home" : "Début",
+    "about" : "Qui suis je?",
+    "resume" : "Sommaire",
+    "work": "Emplois",
+    "description": "Je viens de Brasilia, au Brésil. Je suis ingénieur logiciel diplômé de l'Université de Brasilia (UnB). Toujours à la recherche de nouveaux défis et de nouveaux horizons.",
+    "im": "Je Suis ",
+    "imAbout": "Qui suis je?",
+    "descriptionAbout" : "Je suis un gars calme, avec un désir de travailler, une passion pour la programmation et de nouvelles connaissances et expériences. J'aime les projets, de leur phase d'initiation à la phase de clôture. Je ne travaille pas actuellement et je rêve de travailler avec des logiciels, d'aider ma famille et de vivre dans un autre pays.",
+    "contactAbout": "Contact",
+    "name": "Victor Hugo Lopes Mota",
+    "email": "victormota042@gmail.com",
+    "phone": "+55 (61) 99459-2869",
+    "street":"Samambaia Norte",
+    "city":"Brasilia",
+    "state":"Brésil",
+    "zip": "72322-006",
+    "education": "Éducation",
+    "works": "Emplois",
+    "tecnologies" :"La Technologie",
+    "certifications" : "Certificats", 
+    "resumeResume":{
+        "skillmessage":"Je cherche toujours à apprendre de nouvelles technologies, mais ce sont celles qui m'intéressent le plus et qui ont le plus de connaissances sur",
+        "education":[
+          {
+            "school":"Université de Brasilia",
+            "degree":"Baccalauréat en Génie Logiciel",
+            "graduated":"Décembre 2020",
+            "description":"En 2013, j'ai réussi l'examen d'entrée pour le cours de génie logiciel à UnB, sur le campus de Gama. C'était mon premier contact avec le programme et au début c'était très difficile, mais avec le temps, j'aimais de plus en plus le cours et j'ai réussi à obtenir mon diplôme. Au cours de mes études, j'ai appris des bases de la programmation au développement de projets, à la gestion de projets, au travail d'équipe, à faire confiance aux gens et à surmonter de plus en plus mes peurs et mes insécurités."
+          }
+        ],
+        "certification":[
+          {
+            "school": "Université de Brasilia",
+            "degree": "Certificat de Programmation Web Java",
+            "graduated": "Mars 2017",
+            "description": "En 2017, j'ai eu l'opportunité de participer à un cours de vulgarisation, en programmation, en utilisant Java Web.Le cours a été enseigné par le Dr Vandor Roberto Vilardi Rissoli. Le cours était très bon, car jusque-là je n'utilisais Java que pour les applications bureautiques, la plupart du temps liées à la discipline d'Orientation Objet. C'était très bien d'acquérir ces connaissances.",
+            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
+            "image": "certificado_java_web.jpg",
+            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+          },
+          {
+            "school": "Udemy",
+            "degree": "Certificat de GoLang",
+            "graduated": "Novembre 2020",
+            "description": "En octobre 2020, afin de me lancer dans de nouveaux défis, j'ai acheté un cours GoLang chez Udemy. Le professeur a très bien expliqué le cours et j'ai aimé la langue.",
+            "link": "https://www.udemy.com/course/curso-go/",
+            "image": "certificado_golang.jpg",
+            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
+          }
+        ],
+        "work":[
+          {
+            "company":"Sénat fédéral",
+            "title": "Interne",
+            "years": "Août 2017 - Août 2019",
+            "description": "Au Sénat, j'ai davantage travaillé avec le frontend, c'est donc à cette époque que j'ai appris davantage sur CSS, Javascript, HTML5 et principalement sur les processus. Comme il y a beaucoup de projets dans le secteur public, l'une des choses que mes superviseurs m'ont le plus apprise a été de travailler avec la modélisation de processus, et comment en suivre les phases. Ce furent deux années incroyables."
+          },
+          {
+            "company":"Banque du Brésil",
+            "title":"Interne",
+            "years":"Septembre 2019 - Décembre 2019",
+            "description":"À Banco do Brasil, c'était un temps plus court, et pendant que je travaillais dans cette institution, j'ai eu l'opportunité d'utiliser les connaissances acquises dans le cours d'extension JavaWeb et d'en apprendre davantage sur l'utilisation du framework Hibernate et Spring."
+          }
+        ],
+        "skills":[
+          {
+            "name":"Git",
+            "description":"J'utilise git pour n'importe quel projet. J'ai utilisé cet outil de contrôle de version pour tous les projets auxquels j'ai participé jusqu'à présent. J'ai utilisé Git pour le contrôle de version dans de petites équipes et même pour contribuer à des projets open source.",
+            "image":"git.jpg"
+          },
+          {
+            "name":"Java",
+            "description":"Java était la première langue que j'aimais vraiment et que je connaissais encore à l'université. C'est l'un des langages les plus familiers en termes de structure et de modèles de conception. Parce que c'est une langue plus ancienne, elle a beaucoup d'aide sur Internet et une communauté qui est toujours active.",
+            "image":"java.jpg"
+          },
+          {
+            "name":"React Js",
+            "description":"Au début, je n'aimais pas beaucoup la langue, mais comme j'ai vu des amis l'utiliser, j'ai décidé de lui donner une chance de plus et je n'ai pas regretté le choix. C'est une langue incroyable, avec une grande communauté active, différents types d'emplois et des problèmes résolus.",
+            "image":"react.jpg"
+          },
+          {
+            "name":"Python Django",
+            "description":"Au début, j'ai trouvé la langue un peu étrange, mais avec le temps, j'ai commencé à aimer beaucoup la langue. Même avec la possibilité de pouvoir faire à la fois le backend, comme le frontend tout avec python django, j'ai aimé l'option d'utiliser uniquement le backend comme API Rest, qui était l'option que j'ai utilisée dans le développement de mon TCC.",
+            "image":"python_django.svg"
+          },
+    
+          {
+            "name":"Docker",
+            "description":"J'ai rencontré cette technologie dans une discipline universitaire et j'ai été impressionné par sa qualité. Depuis, dans pratiquement tous mes projets, j'utilise un docker et cela a considérablement réduit les problèmes de configuration d'environnement que j'avais dans les projets auxquels j'ai participé.",
+            "image":"docker.jpg"
+          },
+          {
+            "name":"Bootstrap 4",
+            "description":"J'ai utilisé Bootstrap, dans l'un des projets auxquels j'ai le plus aimé participer et dans des projets plus petits. J'aime la quantité d'exemples que le site met à disposition et la quantité de choses intéressantes qui peuvent être faites.",
+            "image":"bootstrap.jpg"
+          },
+          {
+            "name":"Heroku",
+            "description":"J'ai utilisé heroku comme plate-forme d'hébergement en ligne gratuite pour mon tcc et un autre travail universitaire. Il est raisonnablement facile à installer et à utiliser et pour ces raisons, je l'aime beaucoup.",
+            "image":"heroku.jpg"
+          }
+        ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Grata - Gestion Des Réunions et Des Procès-Verbaux",
+          "category":"Mon Projet de Fin de Cours",
+          "image":"react.jpg",
+          "url":"https://grata-frontend.herokuapp.com/"
+        },
+        {
+          "title":"Escola X",
+          "category":"Projet Aidé à Aider Une École Publique du District Fédéral",
+          "image":"escolaX.png",
+          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
+        },
+        {
+          "title":"Assiette Ouverte",
+          "category":"Contribution Open Source",
+          "image":"sp.svg",
+          "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
+        }
+      ]
+    },
+  "worksParticipated": "Certains Des Projets Auxquels j'ai Participé",
+  "footerBased": " Basé Sur le Modèle de Tim Baker"
+}

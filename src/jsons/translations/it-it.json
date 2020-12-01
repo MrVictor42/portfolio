@@ -1,0 +1,129 @@
+{
+    "home" : "Inizio",
+    "about" : "Chi sono?",
+    "resume" : "Sommario",
+    "work": "Lavori",
+    "description": "Vengo da Brasilia, Brasile. Sono un ingegnere del software laureato presso l'Università di Brasilia (UnB). Sempre alla ricerca di nuove sfide e nuovi orizzonti.",
+    "im": "Sono ",
+    "imAbout": "Chi Sono?",
+    "descriptionAbout" : "Sono un ragazzo tranquillo, con voglia di lavorare, passione per la programmazione e nuove conoscenze ed esperienze. Mi piacciono i progetti, dalla fase di avvio a quella di chiusura. Al momento non lavoro e sogno di lavorare con il software, aiutare la mia famiglia e vivere in un altro paese.",
+    "contactAbout": "Contatto",
+    "name": "Victor Hugo Lopes Mota",
+    "email": "victormota042@gmail.com",
+    "phone": "+55 (61) 99459-2869",
+    "street":"Samambaia Norte",
+    "city":"Brasília",
+    "state":"Brasile",
+    "zip": "72322-006",
+    "education": "Formazione Scolastica",
+    "works": "Trabalhos",
+    "tecnologies" :"Lavori",
+    "certifications" : "Certificati", 
+    "resumeResume":{
+        "skillmessage":"Cerco sempre di apprendere nuove tecnologie, ma queste sono quelle che mi interessano di più e su cui ho più conoscenza",
+        "education":[
+          {
+            "school":"Università di Brasilia",
+            "degree":"Laurea in Ingegneria Del Software",
+            "graduated":"Dicembre 2020",
+            "description":"Nel 2013 ho superato l'esame di ammissione al corso di Ingegneria del Software presso UnB, nel campus di Gama. Era il mio primo contatto con il programma e all'inizio è stato molto difficile, ma con il passare del tempo mi sono divertito sempre di più e sono riuscito a diplomarmi. Durante la laurea, ho imparato dalle basi della programmazione allo sviluppo del progetto, alla gestione del progetto, al lavoro di squadra, alla fiducia nelle persone e al superamento delle mie paure e insicurezze sempre di più."
+          }
+        ],
+        "certification":[
+          {
+            "school": "Università di Brasilia",
+            "degree": "Certificato di Programmazione Web Java",
+            "graduated": "Marzo 2017",
+            "description": "Nel 2017 ho avuto modo di partecipare ad un corso di estensione, in programmazione, utilizzando Java Web. Il corso è stato tenuto dal Dott. Vandor Roberto Vilardi Rissoli. Il corso è stato molto buono, perché fino ad allora ho utilizzato Java solo per applicazioni desktop, il più delle volte legate alla disciplina dell'Orientamento agli Oggetti. È stato molto positivo acquisire questa conoscenza.",
+            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
+            "image": "certificado_java_web.jpg",
+            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+          },
+          {
+            "school": "Udemy",
+            "degree": "Certificato di GoLang",
+            "graduated": "Novembre 2020",
+            "description": "Nell'ottobre 2020, per intraprendere nuove sfide, ho acquistato un corso GoLang su Udemy. L'insegnante ha spiegato molto bene il corso e mi è piaciuta la lingua.",
+            "link": "https://www.udemy.com/course/curso-go/",
+            "image": "certificado_golang.jpg",
+            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
+          }
+        ],
+        "work":[
+          {
+            "company":"Senato Federale",
+            "title": "Stagista",
+            "years": "Agosto 2017 - Agosto 2019",
+            "description": "Al Senato ho lavorato di più con il frontend, quindi è stato in quel periodo che ho imparato di più su CSS, Javascript, HTML5 e principalmente sui processi. Poiché ci sono molti progetti nel settore pubblico, una delle cose che i miei supervisori mi hanno insegnato di più è stato lavorare con la modellazione dei processi e come seguirne le fasi. Sono stati due anni incredibili."
+          },
+          {
+            "company":"Banco do Brasil",
+            "title":"Estagiário",
+            "years":"Setembro de 2019 - Dezembro de 2019",
+            "description":"Al Banco do Brasil, è stato un tempo più breve e, mentre lavoravo in questa istituzione, ho avuto l'opportunità di utilizzare le conoscenze acquisite nel corso di estensione JavaWeb e ho imparato di più su come utilizzare il framework Hibernate e Spring."
+          }
+        ],
+        "skills":[
+          {
+            "name":"Git",
+            "description":"Uso git per qualsiasi progetto. Ho utilizzato questo strumento di controllo della versione per tutti i progetti a cui ho partecipato finora. Ho usato Git per il controllo della versione in piccoli team e anche per contribuire a progetti open source.",
+            "image":"git.jpg"
+          },
+          {
+            "name":"Java",
+            "description":"Java è stata la prima lingua che mi è veramente piaciuta e che ancora conoscevo al college. È uno dei linguaggi più familiari in termini di struttura e design pattern. Poiché è una lingua più vecchia, ha molto aiuto su Internet e una comunità che è ancora attiva.",
+            "image":"java.jpg"
+          },
+          {
+            "name":"React Js",
+            "description":"Inizialmente non mi piaceva molto la lingua, ma vedendo che gli amici la usavano, ho deciso di darle un'altra possibilità e non mi sono pentita della scelta. È un linguaggio incredibile, con una grande comunità attiva, diversi tipi di lavoro e problemi risolti.",
+            "image":"react.jpg"
+          },
+          {
+            "name":"Python Django",
+            "description":"All'inizio ho trovato la lingua un po 'strana, ma con il tempo ho iniziato a piacermi molto. Pur avendo la possibilità di poter fare sia il backend, sia il frontend tutto con python django, mi è piaciuta la possibilità di usare solo il backend come API Rest, che era l'opzione che ho usato nello sviluppo del mio TCC.",
+            "image":"python_django.svg"
+          },
+    
+          {
+            "name":"Docker",
+            "description":"Ho incontrato questa tecnologia in una disciplina universitaria e sono rimasto impressionato da quanto sia buona. Da allora, praticamente in tutti i miei progetti, utilizzo un docker e questo ha ridotto notevolmente i problemi di configurazione dell'ambiente che avevo nei progetti a cui ho partecipato.",
+            "image":"docker.jpg"
+          },
+          {
+            "name":"Bootstrap 4",
+            "description":"Ho usato Bootstrap, in uno dei progetti a cui mi piaceva di più aver partecipato e in progetti più piccoli. Mi piace la quantità di esempi che il sito mette a disposizione e la quantità di cose interessanti che si possono fare.",
+            "image":"bootstrap.jpg"
+          },
+          {
+            "name":"Heroku",
+            "description":"Ho usato heroku come piattaforma di hosting online gratuita per il mio tcc e un altro lavoro universitario. È ragionevolmente facile da configurare e utilizzare e per questi motivi mi piace molto.",
+            "image":"heroku.jpg"
+          }
+        ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Grata - Gestione Riunioni e Verbali",
+          "category":"Il Mio Progetto di Completamento Del Corso",
+          "image":"react.jpg",
+          "url":"https://grata-frontend.herokuapp.com/"
+        },
+        {
+          "title":"Escola X",
+          "category":"Il Progetto ha Contribuito ad Aiutare Una Scuola Pubblica nel Distretto Federale",
+          "image":"escolaX.png",
+          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
+        },
+        {
+          "title":"Piatto Aperto",
+          "category":"Contributo Open Source",
+          "image":"sp.svg",
+          "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
+        }
+      ]
+    },
+  "worksParticipated": "Alcuni Dei Progetti a Cui ho Partecipato",
+  "footerBased": " Basato Sul Modello di Tim Baker"
+}
