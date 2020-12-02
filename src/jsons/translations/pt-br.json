@@ -6,7 +6,7 @@
     "description": "Eu sou de Brasília, Brasil. Sou engenheiro de software formado pela Universidade de Brasília (UnB). Sempre em busca de novos desafios e novos horizontes.",
     "im": "Eu sou ",
     "imAbout": "Quem Sou?",
-    "descriptionAbout" : "Sou um cara tranquilo, com desejo de trabalhar, paixão por programação e por novos conhecimentos e experiências. Gosto de projetos, desde a sua fase de iniciação até a fase de encerramento. Atualmente não estou trabalhando, e sonhos de trabalhar com software, ajudar minha família e morar em outro país.",
+    "descriptionAbout" : "Sou um cara tranquilo, com desejo de trabalhar, paixão por programação e por novos conhecimentos e experiências. Gosto de projetos, desde a sua fase de iniciação até a fase de encerramento. Graduado em Engenharia de Software pela Universidade de Brasília (UnB) com experiência em Java, Java EE, Java Android, ReactJS, Python Django e MySQL, Golang, Javascript, API Rest,HTML e CSS, além de metodologias ageis como SCRUM e XP.",
     "contactAbout": "Contato",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -16,17 +16,16 @@
     "state":"Brasil",
     "zip": "72322-006",
     "education": "Educação",
-    "works": "Trabalhos",
-    "tecnologies" :"Tecnologias",
+    "works": "Experiência",
+    "tecnologies" :"Conhecimentos",
+    "certification" : "Certificados",
     "certifications" : "Certificados", 
     "resumeResume":{
-        "skillmessage":"Eu sempre busco por aprender novas tecnologias, mas essas são as que mais me interessei e possuo mais conhecimento sobre",
         "education":[
           {
             "school":"Universidade de Brasília",
             "degree":"Bacharel em Engenharia de Software",
-            "graduated":"Dezembro de 2020",
-            "description":"Em 2013, eu passei no vestibular para o curso de Engenharia de Software, na UnB, no campus do Gama. Foi meu primeiro contato com o programação e no início foi bem difícil, mas conforme foi passando o tempo, fui gostando cada vez mais do curso e consegui me formar. Durante a graduação, aprendi do básico da programação á desenvolvimento de projetos, gerenciamento destes projetos, trabalho em equipe, confiar nas pessoas e a superar cada vez mais meus medos e inseguranças."
+            "graduated":"Agosto de 2013 - Dezembro de 2020"
           }
         ],
         "certification":[
@@ -34,71 +33,25 @@
             "school": "Universidade de Brasília",
             "degree": "Certificado em Programação Java Web",
             "graduated": "Março de 2017",
-            "description": "Em 2017, tive a oportunidade de participar de um curso de extensão, em programação, utilizando Java Web. O curso foi ministrado pelo Dr. Vandor Roberto Vilardi Rissoli. O curso foi muito bom, pois até então só utilizava Java para aplicações desktop, na maioria das vezes relacionada a disciplina de Orientação a Objetos. Foi muito bom adquirir esse conhecimento.",
-            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
-            "image": "certificado_java_web.jpg",
-            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+            "image": "certificado_java_web.jpg"
           },
           {
             "school": "Udemy",
             "degree": "Certificado em GoLang",
             "graduated": "Novembro de 2020",
-            "description": "Em Outubro de 2020, com o objetivo de embarcar em novos desafios, comprei um curso de GoLang na Udemy. O professor explicou muito bem o curso e gostei da linguagem.",
-            "link": "https://www.udemy.com/course/curso-go/",
-            "image": "certificado_golang.jpg",
-            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
+            "image": "certificado_golang.jpg"
           }
         ],
         "work":[
           {
             "company":"Senado Federal",
             "title": "Estagiário",
-            "years": "Agosto de 2017 - Agosto de 2019",
-            "description": "No Senado, eu trabalhei mais com frontend, então foi nesse tempo que aprendi mais sobre CSS, Javascript, HTML5 e principalmente sobre processos. Como no setor público se tem muitos projetos, uma das coisas que mais meus supervisores me ensinaram, foi a trabalhar com modelagem de processos, e como seguir suas fases. Foram dois anos incríveis."
+            "years": "Agosto de 2017 - Agosto de 2019"
           },
           {
             "company":"Banco do Brasil",
             "title":"Estagiário",
-            "years":"Setembro de 2019 - Dezembro de 2019",
-            "description":"No Banco do Brasil, foi um tempo mais curto, e enquanto trabalhei nesta instituição, tive a oportunidade de utilizar conhecimentos que adquiri no curso de extensão de JavaWeb e aprendi mais sobre como usar o framework Hibernate e Spring."
-          }
-        ],
-        "skills":[
-          {
-            "name":"Git",
-            "description":"Eu utilizo o git para qualquer projeto. Tenho usado essa ferramenta para controle de versão para todos os projetos que participei até agora. Usei o Git para controle de versão em pequenas equipes e até em contribuir para projetos de código aberto.",
-            "image":"git.jpg"
-          },
-          {
-            "name":"Java",
-            "description":"Java foi a primeira linguagem que realmente gostei e que conheci ainda na faculdade. É uma das linguagens que possui maior familiaridade em termos de estrutura e padrões de projeto. Por se tratar de uma linguagem mais antiga, possui muitas ajudas na internet e uma comunidade ainda ativa.",
-            "image":"java.jpg"
-          },
-          {
-            "name":"React Js",
-            "description":"Inicialmente não gostei muito da linguagem, mas como via amigos a utilizando, resolvi da mais uma chance e não me arrependi da escolha. É uma linguagem incrivel, com uma grande comunidade ativa, diversos tipos de trabalhos e problemas resolvidos.",
-            "image":"react.jpg"
-          },
-          {
-            "name":"Python Django",
-            "description":"No início, achei um pouco estranho a linguagem, mas com o tempo, comecei a gostar muito da linguagem. Mesmo com a possibilidade de poder fazer tanto o backend, quanto o frontend tudo com o python django, gostei mais da opção de usar apenas o backend como API Rest, que foi a opção que usei no desenvolvimento do meu TCC.",
-            "image":"python_django.svg"
-          },
-    
-          {
-            "name":"Docker",
-            "description":"Conheci essa tecnologia em uma disciplina da faculdade e fiquei impressionado o quanto ela é boa. Desde então, em praticamente todos os meus projetos, eu utilizo docker e isso diminuiu consideravelmente os problemas de configuração de ambiente que tinha nos projetos que participava.",
-            "image":"docker.jpg"
-          },
-          {
-            "name":"Bootstrap 4",
-            "description":"Utilizei o Bootstrap, em um dos projetos que mais gostei de ter participado e em projetos menores. Gosto da quantidade de exemplos que o site disponibiliza e a quantidade de coisas legais que é possível ser feito.",
-            "image":"bootstrap.jpg"
-          },
-          {
-            "name":"Heroku",
-            "description":"Eu utilizei o heroku como plataforma de hospedagem online gratuita no meu tcc e um outro trabalho da faculdade. É razoavelmente fácil configurar e de se utilizar e por esses motivos, eu gosto muito.",
-            "image":"heroku.jpg"
+            "years":"Setembro de 2019 - Dezembro de 2019"
           }
         ]
     },
@@ -106,24 +59,24 @@
       "projects": [
         {
           "title":"Grata - Gerenciamento de Reuniões e Atas",
-          "category":"Meu Projeto de Conclusão de Curso",
+          "description": "Projeto desenvolvido como Trabalho de Conclusão de Curso, utilizando como Frontend ReactJs e como Backend Python Django.",
           "image":"react.jpg",
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
           "title":"Escola X",
-          "category":"Projeto Realizado Para Ajudar Uma Escola Pública do Distrito Federal",
+          "description": "Projeto desenvolvido como trabalho da universidade, utilizando Ruby on Rails.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
         },
         {
           "title":"Prato Aberto",
-          "category":"Contribuição de Código Aberto",
+          "description": "Projeto desenvolvido como trabalho da universidade, utilizando Python Flask.",
           "image":"sp.svg",
           "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
         }
       ]
     },
-  "worksParticipated": "Alguns dos Projetos Que Participei",
+  "worksParticipated": "Projetos",
   "footerBased": " Baseado no Template do Tim Baker"
 }

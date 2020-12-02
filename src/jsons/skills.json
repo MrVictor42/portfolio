@@ -1,0 +1,53 @@
+{
+    "skills":[
+        {
+          "name":"Git",
+          "image":"git.jpg"
+        },
+        {
+          "name":"Java",
+          "image":"java.jpg"
+        },
+        {
+          "name":"React Js",
+          "image":"react.jpg"
+        },
+        {
+          "name":"Python Django",
+          "image":"python_django.svg"
+        },
+  
+        {
+          "name":"Docker",
+          "image":"docker.jpg"
+        },
+        {
+          "name":"Bootstrap 4",
+          "image":"bootstrap.jpg"
+        },
+        {
+          "name":"Heroku",
+          "image":"heroku.jpg"
+        },
+        {
+          "name": "GoLang",
+          "image": "golang.jpg"
+        },
+        {
+          "name": "ApiRest",
+          "image": "apirest.jpeg"
+        },
+        {
+          "name": "HTML Css Javascript",
+          "image": "html-css.jpg"
+        },
+        {
+          "name": "Scrum",
+          "image": "scrum.jpg"
+        },
+        {
+          "name": "MySQL",
+          "image": "sql.png"
+        }
+    ]
+}

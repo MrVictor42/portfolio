@@ -12,9 +12,9 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Resume from '../components/Resume';
 import Portfolio from '../components/Portfolio';
+import Certificate from '../components/Certificate';
 import Footer from '../components/Footer';
 import consts from '../jsons/consts.json';
-
 
 export default function languageProvider(props) {
     const [locale, setLocale] = useState('pt-br');
@@ -52,6 +52,7 @@ export default function languageProvider(props) {
             <About />
             <Resume country = { locale } />
             <Portfolio country = { locale } />
+            <Certificate country = { locale } />
             <Footer consts = { consts } />
         </IntlProvider>
     );

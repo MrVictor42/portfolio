@@ -63,6 +63,11 @@ class Header extends Component {
 								<FormattedMessage id = 'work' />
 							</a>
 						</li>
+						<li>
+							<a className = 'smoothscroll' href = '#certificate'>
+								<FormattedMessage id = 'certification' />
+							</a>
+						</li>
 						<span id = 'brazil' onClick = {() => this.changeLanguage('pt-br')}>
 							<img src = { Brazil } alt = 'Brasil/Brazil'/>
 						</span>

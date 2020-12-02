@@ -23,8 +23,7 @@ class About extends Component {
 									<span> <FormattedMessage id = 'name' /> </span><br />
 									<span> 
 										<FormattedMessage id = 'city' /> <br />
-										<FormattedMessage id = 'state' />,  
-										<FormattedMessage id = 'zip' />
+										<FormattedMessage id = 'state' />  
 									</span><br />
 									<span> 
 										<FormattedMessage id = 'city' /> <br />

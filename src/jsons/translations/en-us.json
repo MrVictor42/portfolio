@@ -6,7 +6,7 @@
     "description": "I'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). Always looking for new challenges and new horizons.",
     "im": "I'm ",
     "imAbout": "Who am I?",
-    "descriptionAbout" : "I'm a calm guy, with a desire to work, a passion for programming and new knowledge and experiences. I like projects, from their initiation phase to the closing phase. I am not currently working, and dreams of working with software, helping my family and living in another country.",
+    "descriptionAbout" : "I'm a calm guy, with a desire to work, a passion for programming and new knowledge and experiences. I like projects, from their initiation phase to the closing phase. Graduated in Software Engineering from the University of Brasília (UnB) with experience in Java, Java EE, Java Android, ReactJS, Python Django and MySQL, Golang, Javascript, API Rest, HTML and CSS, in addition to agile methodologies such as SCRUM and XP.",
     "contactAbout": "Contact",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -16,17 +16,16 @@
     "state":"Brazil",
     "zip": "72322-006",
     "education": "Education",
-    "works": "Works",
-    "tecnologies": "Tecnologies",
+    "works": "Experience",
+    "tecnologies": "Knowledge",
+    "certification" : "Certificates",
     "certifications" : "Certifications", 
     "resumeResume":{
-        "skillmessage":"I always seek to learn new technologies, but these are the ones that interest me the most and have the most knowledge about",
         "education":[
           {
             "school":"University of Brasilia",
             "degree":"Bachelor of Software Engineering",
-            "graduated":"December 2020",
-            "description":"In 2013, I passed the entrance exam for the Software Engineering course at UnB, on the Gama campus. It was my first contact with the program and at the beginning it was very difficult, but as time went on, I was enjoying the course more and more and managed to graduate. During graduation, I learned from the basics of programming to project development, project management, teamwork, trusting people and overcoming my fears and insecurities more."
+            "graduated":"August 2013 - December 2020"
           }
         ],
         "certification":[
@@ -34,71 +33,25 @@
             "school": "University of Brasilia",
             "degree": "Java Web Programming Certificate",
             "graduated": "March 2017",
-            "description": "In 2017, I had the opportunity to participate in an extension course, in programming, using Java Web. The course was taught by Dr. Vandor Roberto Vilardi Rissoli. The course was very good, because until then I only used Java for desktop applications, most of the time related to the Object Orientation discipline. It was very good to acquire this knowledge.",
-            "link": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4704881D3",
-            "image": "certificado_java_web.jpg",
-            "descriptionTeacher": "Lattes Dr. Vandor Roberto Vilardi Rissoli"            
+            "image": "certificado_java_web.jpg"
           },
           {
             "school": "Udemy",
             "degree": "GoLang Certified",
             "graduated": "November 2020",
-            "description": "In October 2020, in order to embark on new challenges, I bought a GoLang course at Udemy. The teacher explained the course very well and I liked the language.",
-            "link": "https://www.udemy.com/course/curso-go/",
-            "image": "certificado_golang.jpg",
-            "descriptionTeacher": "https://www.udemy.com/course/curso-go/#instructor-1"
+            "image": "certificado_golang.jpg"
           }
         ],
         "work":[
           {
             "company":"Senado Federal",
             "title": "Intern",
-            "years": "August 2017 - August 2019",
-            "description": "In the Senate, I worked more with frontend, so it was during this time that I learned more about CSS, Javascript, HTML5 and mainly about processes. As there are many projects in the public sector, one of the things my supervisors taught me the most was working with process modeling, and how to follow its phases. It was an incredible two years."
+            "years": "August 2017 - August 2019"
           },
           {
             "company":"Banco do Brasil",
             "title":"Intern",
-            "years":"September 2019 - December 2019",
-            "description":"At Banco do Brasil, it was a shorter time, and while I worked at this institution, I had the opportunity to use knowledge I acquired in the JavaWeb extension course and learned more about how to use the Hibernate and Spring framework."
-          }
-        ],
-        "skills":[
-          {
-            "name":"Git",
-            "description":"I use git for any project. I have used this version control tool for all the projects I have participated in so far. I used Git to version control small teams and even contribute to open source projects.",
-            "image":"git.jpg"
-          },
-          {
-            "name":"Java",
-            "description":"Java was the first language that I really liked and that I still knew in college. It is one of the languages that is most familiar in terms of structure and design patterns. Because it is an older language, it has a lot of help on the internet and a community that is still active.",
-            "image":"java.jpg"
-          },
-          {
-            "name":"React Js",
-            "description":"Initially I didn't like the language very much, but as I saw friends using it, I decided to give it one more chance and I didn't regret the choice. It is an incredible language, with a large active community, different types of jobs and solved problems.",
-            "image":"react.jpg"
-          },
-          {
-            "name":"Python Django",
-            "description":"At first, I found the language a little strange, but over time, I started to like the language a lot. Even with the possibility of being able to do both the backend, as the frontend all with python django, I liked the option of using only the backend as API Rest, which was the option I used in the development of my TCC.",
-            "image":"python_django.svg"
-          },
-    
-          {
-            "name":"Docker",
-            "description":"I met this technology in a college discipline and was impressed by how good it is. Since then, in practically all of my projects, I use a docker and this has considerably reduced the environment configuration problems I had in the projects I participated in.",
-            "image":"docker.jpg"
-          },
-          {
-            "name":"Bootstrap 4",
-            "description":"I used Bootstrap, in one of the projects that I liked most to have participated in and in smaller projects. I like the number of examples that the site makes available and the amount of cool things that can be done.",
-            "image":"bootstrap.jpg"
-          },
-          {
-            "name":"Heroku",
-            "description":"I used heroku as a free online hosting platform for my tcc and another college job. It is reasonably easy to set up and use and for these reasons, I like it a lot.",
-            "image":"heroku.jpg"
+            "years":"September 2019 - December 2019"
           }
         ]
     },
@@ -106,24 +59,24 @@
       "projects": [
         {
           "title":"Grata - Management of Meetings and Minutes",
-          "category":"My Course Completion Project",
+          "description": "Project developed as Course Completion Work, using as Frontend ReactJs and as Backend Python Django.",
           "image":"react.jpg",
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
           "title":"Escola X",
-          "category":"Project Helped to Help a Public School in the Federal District",
+          "description": "Project developed as university work, using Ruby on Rails.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
         },
         {
           "title":"Open Plate",
-          "category":"Open Source Contribution",
+          "description": "Project developed as university work, using Python Flask.",
           "image":"sp.svg",
           "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
         }
       ]
     },
-  "worksParticipated": "Some of the Projects I Participated",
+  "worksParticipated": "Projects",
   "footerBased": " Based on Tim Baker's Template"
 }
