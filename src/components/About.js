@@ -22,11 +22,10 @@ class About extends Component {
 								<p className = 'address'>
 									<span> <FormattedMessage id = 'name' /> </span><br />
 									<span> 
-										<FormattedMessage id = 'city' /> <br />
-										<FormattedMessage id = 'state' />  
+										<FormattedMessage id = 'state' />  <br />
+										<FormattedMessage id = 'city' /> 
 									</span><br />
 									<span> 
-										<FormattedMessage id = 'city' /> <br />
 										<FormattedMessage id = 'phone' /> </span><br />
 									<span>
 										<a href = 'mailto:victormota042@gmail.com'> 
