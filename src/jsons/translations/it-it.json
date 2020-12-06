@@ -70,6 +70,12 @@
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
         },
         {
+          "title":"Escola X - App",
+          "description": "Progetto sviluppato come lavoro universitario, utilizzando Java Android.",
+          "image":"escolaX.png",
+          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
+        },
+        {
           "title":"Piatto Aperto",
           "description": "Progetto sviluppato come lavoro universitario, utilizzando Python Flask.",
           "image":"sp.svg",

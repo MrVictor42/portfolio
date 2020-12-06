@@ -41,7 +41,7 @@ class Portfolio extends Component {
 			var projectImage = 'images/portfolio/' + projects.image;
 			return <div key = { projects.title } className = 'projects'>
 				<div className = 'container'>
-					<h1> { projects.title } </h1>
+					<h1> <a href = { projects.url }> { projects.title } </a> </h1> 
 					<img alt = { projects.title } src = { projectImage } />
 						<p className = 'info'> { projects.description } </p> <br/>
 				</div>
