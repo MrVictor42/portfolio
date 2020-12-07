@@ -39,7 +39,7 @@ class Certificate extends Component {
         
         var certifications = resume.certification.map(function(certification){
 			var certificationImage = 'images/certifications/' + certification.image
-			return <div key = { certification.school } className = 'certifications'>
+			return <div key = { certification.key } className = 'certifications'>
                     <h3> { certification.school } </h3>
                     <p className = 'info'> { certification.degree } <span>&bull;</span>
                         <em className = 'date'> { certification.graduated } </em>

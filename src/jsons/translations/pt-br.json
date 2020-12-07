@@ -30,16 +30,25 @@
         ],
         "certification":[
           {
+            "key": 1,
             "school": "Universidade de Brasília",
             "degree": "Certificado em Programação Java Web",
             "graduated": "Março de 2017",
             "image": "certificado_java_web.jpg"
           },
           {
+            "key": 2,
             "school": "Udemy",
             "degree": "Certificado em GoLang",
             "graduated": "Novembro de 2020",
             "image": "certificado_golang.jpg"
+          },
+          {
+            "key": 3,
+            "school": "Udemy",
+            "degree": "Certificado em Python Data Science e Aprendizado de Máquina",
+            "graduated": "Novembro de 2020",
+            "image": "certificado_data_science.jpg"
           }
         ],
         "work":[
