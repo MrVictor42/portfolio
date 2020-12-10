@@ -49,7 +49,7 @@ export default function languageProvider(props) {
     return(
         <IntlProvider locale = { locale } messages = { lang }>
             <Header onChange = { changeLanguage } consts = { consts }/>
-            <About />
+            <About country = { locale }/>
             <Resume country = { locale } />
             <Portfolio country = { locale } />
             <Certificate country = { locale } />
