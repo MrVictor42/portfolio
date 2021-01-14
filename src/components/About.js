@@ -1,42 +1,71 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import CVdede from '../files/CV_Victor_Mota_de_de.pdf';
-import CVenus from '../files/CV_Victor_Mota_en_us.pdf';
-import CVeses from '../files/CV_Victor_Mota_es_es.pdf';
-import CVfrfr from '../files/CV_Victor_Mota_fr_fr.pdf';
-import CVitit from '../files/CV_Victor_Mota_it_it.pdf';
-import CVptbr from '../files/CV_Victor_Mota_pt_br.pdf';
+import CVBackendPtBr from '../files/backend/CV_Victor_Mota_pt_br.pdf';
+import CVBackendDeDe from '../files/backend/CV_Victor_Mota_de_de.pdf';
+import CVBackendEnUs from '../files/backend/CV_Victor_Mota_en_us.pdf';
+import CVBackendEsEs from '../files/backend/CV_Victor_Mota_es_es.pdf';
+import CVBackendFrFr from '../files/backend/CV_Victor_Mota_fr_fr.pdf';
+import CVBackendItIt from '../files/backend/CV_Victor_Mota_it_it.pdf';
+
+import CVFrontendPtBr from '../files/frontend/CV_Victor_Mota_pt_br.pdf';
+import CVFrontendDeDe from '../files/frontend/CV_Victor_Mota_de_de.pdf';
+import CVFrontendEnUs from '../files/frontend/CV_Victor_Mota_en_us.pdf';
+import CVFrontendEsEs from '../files/frontend/CV_Victor_Mota_es_es.pdf';
+import CVFrontendFrFr from '../files/frontend/CV_Victor_Mota_fr_fr.pdf';
+import CVFrontendItIt from '../files/frontend/CV_Victor_Mota_it_it.pdf';
+
+import CVFullPtPt from '../files/fullStack/CV_Victor_Mota_pt_br.pdf';
+import CVFullDeDe from '../files/fullStack/CV_Victor_Mota_de_de.pdf';
+import CVFullEnUs from '../files/fullStack/CV_Victor_Mota_en_us.pdf';
+import CVFullEsEs from '../files/fullStack/CV_Victor_Mota_es_es.pdf';
+import CVFullFrFr from '../files/fullStack/CV_Victor_Mota_fr_fr.pdf';
+import CVFullItIt from '../files/fullStack/CV_Victor_Mota_it_it.pdf';
 
 class About extends Component {
 
 	render() {
 
 		const Profile_pic = 'images/profile_pic.jpg';
-		let resumecv = '';
+		let resumecvbackend = '';
+		let resumecvfrontend = '';
+		let resumecvfull = '';
 
 		switch(this.props.country) {
 			case 'pt-br':
-				resumecv = CVptbr;
+				resumecvbackend = CVBackendPtBr;
+				resumecvfrontend = CVFrontendPtBr;
+				resumecvfull = CVFullPtPt;
 				break;
 			case 'en-us':
-				resumecv = CVenus;
+				resumecvbackend = CVBackendEnUs;
+				resumecvfrontend = CVFrontendEnUs;
+				resumecvfull = CVFullEnUs;
 				break;
 			case 'de-de':
-				resumecv = CVdede;
+				resumecvbackend = CVBackendDeDe;
+				resumecvfrontend = CVFrontendDeDe;
+				resumecvfull = CVFullDeDe;
 				break;
 			case 'es-es':
-				resumecv = CVeses;
+				resumecvbackend = CVBackendEsEs;
+				resumecvfrontend = CVFrontendEsEs;
+				resumecvfull = CVFullEsEs;
 				break;
 			case 'fr-fr':
-				resumecv = CVfrfr;
+				resumecvbackend = CVBackendFrFr;
+				resumecvfrontend = CVFrontendFrFr;
+				resumecvfull = CVFullFrFr;
 				break;
 			case 'it-it':
-				resumecv = CVitit;
+				resumecvbackend = CVBackendItIt;
+				resumecvfrontend = CVFrontendItIt;
+				resumecvfull = CVFullItIt;
 				break;
 			default:
-				resumecv = CVptbr;
-
+				resumecvbackend = CVBackendPtBr;
+				resumecvfrontend = CVFrontendPtBr;
+				resumecvfull = CVFullPtPt;
 		}
 		
 		return (
@@ -68,8 +97,18 @@ class About extends Component {
 							</div>
 							<div className = 'columns download'>
 								<p>
-									<a href = { resumecv } className = 'button' 					target = '_blank'>
-										<i className = 'fa fa-download'></i>Download CV
+									<a href = { resumecvfrontend } className = 'button' 					target = '_blank'>
+										<i className = 'fa fa-download'></i>Download CV Frontend
+									</a>
+								</p>
+								<p>
+									<a href = { resumecvbackend } className = 'button' 					target = '_blank'>
+										<i className = 'fa fa-download'></i>Download CV Backend
+									</a>
+								</p>
+								<p>
+									<a href = { resumecvfull } className = 'button' 					target = '_blank'>
+										<i className = 'fa fa-download'></i>Download CV FullStack
 									</a>
 								</p>
 							</div>
