@@ -30,25 +30,32 @@
         ],
         "certification":[
           {
-            "id": 1,
+            "key": 1,
             "school": "Università di Brasilia",
-            "degree": "Certificato di Programmazione Web Java",
+            "degree": "Certificato di programmazione Web Java",
             "graduated": "Marzo 2017",
             "image": "certificado_java_web.jpg"
           },
           {
-            "id": 2,
+            "key": 2,
             "school": "Udemy",
-            "degree": "Certificato di GoLang",
+            "degree": "Go (Golang): esplorare la lingua di Google",
             "graduated": "Novembre 2020",
             "image": "certificado_golang.jpg"
           },
           {
-            "id": 3,
+            "key": 3,
             "school": "Udemy",
-            "degree": "Certificato Python in Data Science e Machine Learning",
+            "degree": "Python per Data Science e Machine Learning",
             "graduated": "Dicembre 2020",
             "image": "certificado_data_science.jpg"
+          },
+          {
+            "key": 4,
+            "school": "Udemy",
+            "degree": "Java 2021 COMPLETE: da zero a progetti Professional!",
+            "graduated": "Febbraio 2021",
+            "image": "certificado_java.jpg"
           }
         ],
         "work":[

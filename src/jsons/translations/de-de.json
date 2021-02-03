@@ -39,16 +39,23 @@
           {
             "key": 2,
             "school": "Udemy",
-            "degree": "GoLang-zertifiziert",
+            "degree": "Go (Golang): Erkunden der Google-Sprache",
             "graduated": "November 2020",
             "image": "certificado_golang.jpg"
           },
           {
             "key": 3,
             "school": "Udemy",
-            "degree": "Python Data Science Und Zertifikat Für Maschinelles Lernen",
+            "degree": "Python für Data Science und maschinelles Lernen",
             "graduated": "Dezember 2020",
             "image": "certificado_data_science.jpg"
+          },
+          {
+            "key": 4,
+            "school": "Udemy",
+            "degree": "FULL Java 2021: Von Null zu Professional",
+            "graduated": "Februar 2021",
+            "image": "certificado_java.jpg"
           }
         ],
         "work":[
