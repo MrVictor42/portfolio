@@ -6,7 +6,7 @@
     "description": "Soy de Brasilia, Brasil. Soy ingeniero de software egresado de la Universidad de Brasilia (UnB). Siempre buscando nuevos retos, horizontes y perspectivas.",
     "im": "Yo soy ",
     "imAbout": "Quien Soy?",
-    "descriptionAbout" : "En busca de nuevos conocimientos y experiencias, tengo un gran interés en el desarrollo de proyectos, desde su fase de inicio hasta la fase de cierre. Graduado en Ingeniería de Software de la Universidad de Brasilia (UnB) con experiencia en Java, Java EE, Java Android, ReactJS, Python Django y MySQL, Golang, Javascript, API Rest, HTML y CSS, además de metodologías ágiles como SCRUM y XP.",
+    "descriptionAbout" : "En busca de nuevos conocimientos y experiencias, tengo un gran interés en el desarrollo de proyectos, desde su fase de inicio hasta la fase de cierre. Graduado en Ingeniería de Software de la Universidad de Brasilia (UnB) con experiencia en Java, Java EE, Java Android, Kotlin, ReactJS, Python Django y MySQL, Golang, Javascript, API Rest, HTML y CSS, además de metodologías ágiles como SCRUM y XP.",
     "contactAbout": "Contacto",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -56,6 +56,13 @@
             "degree": "FULL Java 2021: de cero a profesional",
             "graduated": "Febrero de 2021",
             "image": "certificado_java.jpg"
+          },
+          {
+            "key": 5,
+            "school": "Udemy",
+            "degree": "Desarrollo de Android con Kotlin",
+            "graduated": "Abril de 2021",
+            "image": "certificado_kotlin.jpg"
           }
         ],
         "work":[
@@ -68,6 +75,11 @@
             "company":"Banco do Brasil",
             "title":"Interno",
             "years":"Septiembre de 2019 - Diciembre de 2019"
+          },
+          {
+            "company": "TCS - Tata Consultancy Services",
+            "title": "Analista desarrollador junior",
+            "years": "Marzo de 2021 - actualidad"
           }
         ]
     },
@@ -92,10 +104,10 @@
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
         },
         {
-          "title":"Plato Abierto",
-          "description": "Proyecto desarrollado como trabajo universitario, utilizando Python Flask.",
-          "image":"sp.svg",
-          "url":"https://github.com/MES-PratoAberto/SME-PratoAberto-Editor"
+          "title":"My An",
+          "description": "Proyecto desarrollado en ReactJS con backend en Java Spring Boot.",
+          "image":"react.jpg",
+          "url":"https://myan.netlify.app/"
         }
       ]
     },
