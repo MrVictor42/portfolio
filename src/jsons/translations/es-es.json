@@ -3,7 +3,7 @@
     "about" : "Quien Soy?",
     "resume" : "Resumen",
     "work": "Trabajos",
-    "description": "Soy de Brasilia, Brasil. Soy ingeniero de software egresado de la Universidad de Brasilia (UnB). Siempre buscando nuevos retos, horizontes y perspectivas.",
+    "description": "Licenciatura en Ingeniería de Software de la Universidad de Brasilia (UnB). Llevo 3 años en el campo de las tecnologías de la información. Trabajé como asistente del gerente de proyectos, tester web, desarrollador Front-End y corregido errores. Actualmente trabajo como desarrollador junior en TCS (Tata Consultancy Services), desarrollando en Java con JSP, JSF y Angular.",
     "im": "Yo soy ",
     "imAbout": "Quien Soy?",
     "descriptionAbout" : "En busca de nuevos conocimientos y experiencias, tengo un gran interés en el desarrollo de proyectos, desde su fase de inicio hasta la fase de cierre. Graduado en Ingeniería de Software de la Universidad de Brasilia (UnB) con experiencia en Java, Java EE, Java Android, Kotlin, ReactJS, Python Django y MySQL, Golang, Javascript, API Rest, HTML y CSS, además de metodologías ágiles como SCRUM y XP.",
@@ -92,22 +92,16 @@
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
-          "title":"Escola X",
-          "description": "Proyecto desarrollado como trabajo universitario, utilizando Ruby on Rails.",
-          "image":"escolaX.png",
-          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
-        },
-        {
           "title":"Escola X - App",
           "description": "Proyecto desarrollado como trabajo universitario, utilizando Java Android.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
         },
         {
-          "title":"My An",
-          "description": "Proyecto desarrollado en ReactJS con backend en Java Spring Boot.",
-          "image":"react.jpg",
-          "url":"https://myan.netlify.app/"
+          "title":"MyAn",
+          "description": "Proyecto desarrollado en Kotlin.",
+          "image":"logo_icon.png",
+          "url":"https://play.google.com/store/apps/details?id=com.victor.myan"
         }
       ]
     },

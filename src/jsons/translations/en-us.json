@@ -3,7 +3,7 @@
     "about" : "About",
     "resume" : "Resume",
     "work": "Works",
-    "description": "II'm from Brasilia, Brazil. I am a software engineer graduated from the University of Brasília (UnB). Always looking for new challenges, horizons and perspectives.",
+    "description": "Bachelor's Degree in Software Engineering from the University of Brasília (UnB). I have 3 years in the IT area. I worked as an assistant project manager, web tester, Front-End developer and fixed bugs. I currently work as a junior developer at TCS (Tata Consultancy Services), developing in Java with JSP, JSF and Angular.",
     "im": "I'm ",
     "imAbout": "Who am I?",
     "descriptionAbout" : "In search of new knowledge and experiences, I have a great interest in project development, from its initiation phase to the closing phase. Graduated in Software Engineering from the University of Brasília (UnB) with experience in Java, Java EE, Java Android, Kotlin, ReactJS, Python Django and MySQL, Golang, Javascript, API Rest, HTML and CSS, in addition to agile methodologies such as SCRUM and XP.",
@@ -92,22 +92,16 @@
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
-          "title":"Escola X",
-          "description": "Project developed as university work, using Ruby on Rails.",
-          "image":"escolaX.png",
-          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
-        },
-        {
           "title":"Escola X - App",
           "description": "Project developed as university work, using Java Android.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
         },
         {
-          "title":"My An",
-          "description": "Project Development on ReactJS With Backend on Java Spring Boot.",
-          "image":"react.jpg",
-          "url":"https://myan.netlify.app/"
+          "title":"MyAn",
+          "description": "Project developed in Kotlin.",
+          "image":"logo_icon.png",
+          "url":"https://play.google.com/store/apps/details?id=com.victor.myan"
         }
       ]
     },

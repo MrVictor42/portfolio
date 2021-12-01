@@ -3,7 +3,7 @@
     "about" : "Qui suis je?",
     "resume" : "Sommaire",
     "work": "Emplois",
-    "description": "JJe viens de Brasilia, au Brésil. Je suis ingénieur logiciel diplômé de l'Université de Brasilia (UnB). Toujours à la recherche de nouveaux défis, horizons et perspectives.",
+    "description": "Baccalauréat en génie logiciel de l'Université de Brasilia (UnB). J'ai 3 ans dans le domaine informatique. J'ai travaillé en tant qu'assistant chef de projet, testeur web, développeur Front-End et correction de bugs. Je travaille actuellement en tant que développeur junior chez TCS (Tata Consultancy Services), développant en Java avec JSP, JSF et Angular.",
     "im": "Je Suis ",
     "imAbout": "Qui suis je?",
     "descriptionAbout" : "A la recherche de nouvelles connaissances et expériences, j'ai un grand intérêt pour le développement de projets, de sa phase d'initiation à la phase de clôture. Diplômé en génie logiciel de l'Université de Brasilia (UnB) avec une expérience en Java, Java EE, Java Android, Kotlin, ReactJS, Python Django et MySQL, Golang, Javascript, API Rest, HTML et CSS, en plus des méthodologies agiles telles que SCRUM et XP.",
@@ -92,22 +92,16 @@
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
-          "title":"Escola X",
-          "description": "Projet développé comme un travail universitaire, utilisant Ruby on Rails.",
-          "image":"escolaX.png",
-          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
-        },
-        {
           "title":"Escola X - App",
           "description": "Projet développé comme un travail universitaire, utilisant Java Android.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
         },
         {
-          "title":"My An",
-          "description": "Projet développé dans ReactJS avec backend dans Java Spring Boot.",
-          "image":"react.jpg",
-          "url":"https://myan.netlify.app/"
+          "title":"MyAn",
+          "description": "Projet développé à Kotlin.",
+          "image":"logo_icon.png",
+          "url":"https://play.google.com/store/apps/details?id=com.victor.myan"
         }
       ]
     },
