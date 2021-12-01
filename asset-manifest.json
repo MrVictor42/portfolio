@@ -1,12 +1,10 @@
 {
   "main.css": "static/css/main.51901569.css",
   "main.css.map": "static/css/main.51901569.css.map",
-  "main.js": "static/js/main.e6537a14.js",
-  "main.js.map": "static/js/main.e6537a14.js.map",
-  "static/media/CV_Victor_Mota_de_de.pdf": "static/media/CV_Victor_Mota_de_de.54f5c96d.pdf",
-  "static/media/CV_Victor_Mota_en_us.pdf": "static/media/CV_Victor_Mota_en_us.d07bd309.pdf",
-  "static/media/CV_Victor_Mota_es_es.pdf": "static/media/CV_Victor_Mota_es_es.7a76775b.pdf",
-  "static/media/CV_Victor_Mota_fr_fr.pdf": "static/media/CV_Victor_Mota_fr_fr.34f3006e.pdf",
-  "static/media/CV_Victor_Mota_it_it.pdf": "static/media/CV_Victor_Mota_it_it.1491e1b3.pdf",
-  "static/media/CV_Victor_Mota_pt_br.pdf": "static/media/CV_Victor_Mota_pt_br.1aa4375a.pdf"
+  "main.js": "static/js/main.2007aeeb.js",
+  "main.js.map": "static/js/main.2007aeeb.js.map",
+  "static\\media\\CV_Victor_Mota_en_us.pdf": "static/media/CV_Victor_Mota_en_us.08ddfe19.pdf",
+  "static\\media\\CV_Victor_Mota_es_es.pdf": "static/media/CV_Victor_Mota_es_es.0238d99c.pdf",
+  "static\\media\\CV_Victor_Mota_fr_fr.pdf": "static/media/CV_Victor_Mota_fr_fr.b801dee3.pdf",
+  "static\\media\\CV_Victor_Mota_pt_br.pdf": "static/media/CV_Victor_Mota_pt_br.d81715e0.pdf"
 }
