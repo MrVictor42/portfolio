@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import CVPtbr from '../files/CV_Victor_Mota_pt_br.pdf';
-import CVDeDe from '../files/CV_Victor_Mota_de_de.pdf';
 import CVEnUs from '../files/CV_Victor_Mota_en_us.pdf';
 import CVEsEs from '../files/CV_Victor_Mota_es_es.pdf';
 import CVFrFr from '../files/CV_Victor_Mota_fr_fr.pdf';
-import CVItIt from '../files/CV_Victor_Mota_it_it.pdf';
 
 class About extends Component {
 
@@ -22,17 +20,11 @@ class About extends Component {
 			case 'en-us':
 				resumecv = CVEnUs;
 				break;
-			case 'de-de':
-				resumecv = CVDeDe;
-				break;
 			case 'es-es':
 				resumecv = CVEsEs;
 				break;
 			case 'fr-fr':
 				resumecv = CVFrFr;
-				break;
-			case 'it-it':
-				resumecv = CVItIt;
 				break;
 			default:
 				resumecv = CVPtbr;

@@ -3,9 +3,7 @@ import { FormattedMessage } from 'react-intl';
 
 import ptBr from '../jsons/translations/pt-br.json';
 import enUs from '../jsons/translations/en-us.json';
-import dede from '../jsons/translations/de-de.json';
 import eses from '../jsons/translations/es-es.json';
-import itit from '../jsons/translations/it-it.json';
 import frfr from '../jsons/translations/fr-fr.json';
 
 class Certificate extends Component {
@@ -21,14 +19,8 @@ class Certificate extends Component {
 			case 'en-us':
 				resume = enUs.resumeResume;
 				break;
-			case 'de-de':
-				resume = dede.resumeResume;
-				break;
 			case 'es-es':
 				resume = eses.resumeResume;
-				break;
-			case 'it-it':
-				resume = itit.resumeResume;
 				break;
 			case 'fr-fr':
 				resume = frfr.resumeResume;

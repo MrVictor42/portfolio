@@ -3,9 +3,7 @@ import { FormattedMessage } from 'react-intl';
 
 import ptBr from '../jsons/translations/pt-br.json';
 import enUs from '../jsons/translations/en-us.json';
-import dede from '../jsons/translations/de-de.json';
 import eses from '../jsons/translations/es-es.json';
-import itit from '../jsons/translations/it-it.json';
 import frfr from '../jsons/translations/fr-fr.json';
 
 class Portfolio extends Component {
@@ -21,14 +19,8 @@ class Portfolio extends Component {
 			case 'en-us':
 				portfolio = enUs.portfolio.projects;
 				break;
-			case 'de-de':
-				portfolio = dede.portfolio.projects;
-				break;
 			case 'es-es':
 				portfolio = eses.portfolio.projects;
-				break;
-			case 'it-it':
-				portfolio = itit.portfolio.projects;
 				break;
 			case 'fr-fr':
 				portfolio = frfr.portfolio.projects;
