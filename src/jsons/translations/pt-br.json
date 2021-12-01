@@ -3,7 +3,7 @@
     "about" : "Quem Sou?",
     "resume" : "Resumo",
     "work": "Trabalhos",
-    "description": "Eu sou de Brasília, Brasil. Sou engenheiro de software formado pela Universidade de Brasília (UnB). Sempre em busca de novos desafios, horizontes e perspectivas.",
+    "description": "Bacharel em Engenharia de Software pela Universidade de Brasília(UnB). Tenho 3 anos na área de TI. Eu trabalhei como auxiliar de gerente de projetos, testador web, desenvolvedor Front-End e resolvia bugs. Atualmente trabalho como desenvolvedor júnior na TCS (Tata Consultancy Services), desenvolvendo em Java com JSP, JSF e Angular.",
     "im": "Eu sou ",
     "imAbout": "Quem Sou?",
     "descriptionAbout" : "Em busca por novos conhecimentos e experiências, possuo um grande interesse em desenvolvimento de projetos, desde a sua fase de iniciação até a fase de encerramento. Graduado em Engenharia de Software pela Universidade de Brasília (UnB) com experiência em Java, Java EE, Java Android, Kotlin, ReactJS, Python Django e MySQL, Golang, Javascript, API Rest,HTML e CSS, além de metodologias ageis como SCRUM e XP.",
@@ -31,34 +31,27 @@
         "certification":[
           {
             "key": 1,
-            "school": "Universidade de Brasília",
-            "degree": "Certificado em Programação Java Web",
-            "graduated": "Março de 2017",
-            "image": "certificado_java_web.jpg"
-          },
-          {
-            "key": 2,
             "school": "Udemy",
             "degree": "Go (Golang): Explorando a Linguagem do Google",
             "graduated": "Novembro de 2020",
             "image": "certificado_golang.jpg"
           },
           {
-            "key": 3,
+            "key": 2,
             "school": "Udemy",
             "degree": "Python para Data Science e Machine Learning",
             "graduated": "Dezembro de 2020",
             "image": "certificado_data_science.jpg"
           },
           {
-            "key": 4,
+            "key": 3,
             "school": "Udemy",
             "degree": "Java 2021 COMPLETO: Do Zero ao Profissional",
             "graduated": "Fevereiro de 2021",
             "image": "certificado_java.jpg"
           },
           {
-            "key": 5,
+            "key": 4,
             "school": "Udemy",
             "degree": "Desenvolvimento Android Com Kotlin",
             "graduated": "Abril de 2021",
@@ -92,22 +85,16 @@
           "url":"https://grata-frontend.herokuapp.com/"
         },
         {
-          "title":"Escola X",
-          "description": "Projeto desenvolvido como trabalho da universidade, utilizando Ruby on Rails.",
-          "image":"escolaX.png",
-          "url":"https://github.com/fga-eps-mds/2017.1-Escola-X"
-        },
-        {
           "title":"Escola X - App",
           "description": "Projeto desenvolvido como trabalho da universidade, utilizando Java Android.",
           "image":"escolaX.png",
           "url":"https://github.com/fga-eps-mds/2017.1-Escola-X.app"
         },
         {
-          "title":"My An",
-          "description": "Projeto Desenvolvido em ReactJS Com Backend em Java Spring Boot.",
-          "image":"react.jpg",
-          "url":"https://myan.netlify.app/"
+          "title":"MyAn",
+          "description": "Projeto desenvolvido em Kotlin.",
+          "image":"logo_icon.png",
+          "url":"https://play.google.com/store/apps/details?id=com.victor.myan"
         }
       ]
     },

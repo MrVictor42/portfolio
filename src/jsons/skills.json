@@ -22,8 +22,8 @@
           "image":"docker.jpg"
         },
         {
-          "name":"Bootstrap 4",
-          "image":"bootstrap.jpg"
+          "name":"Android/Kotlin",
+          "image":"android_logo.jpg"
         },
         {
           "name":"Heroku",
