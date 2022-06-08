@@ -4,7 +4,6 @@ import { IntlProvider } from 'react-intl';
 import Portuguese from '../jsons/translations/pt-br.json';
 import English from '../jsons/translations/en-us.json';
 import Spanish from '../jsons/translations/es-es.json';
-import France from '../jsons/translations/fr-fr.json';
 
 import Header from '../components/Header';
 import About from '../components/About';
@@ -29,9 +28,6 @@ export default function languageProvider(props) {
                 break;
             case 'es-es':
                 setLang(Spanish);
-                break;
-            case 'fr-fr':
-                setLang(France);
                 break;
             default: 
                 setLang(Portuguese)

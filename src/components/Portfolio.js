@@ -4,7 +4,6 @@ import { FormattedMessage } from 'react-intl';
 import ptBr from '../jsons/translations/pt-br.json';
 import enUs from '../jsons/translations/en-us.json';
 import eses from '../jsons/translations/es-es.json';
-import frfr from '../jsons/translations/fr-fr.json';
 
 class Portfolio extends Component {
 
@@ -21,9 +20,6 @@ class Portfolio extends Component {
 				break;
 			case 'es-es':
 				portfolio = eses.portfolio.projects;
-				break;
-			case 'fr-fr':
-				portfolio = frfr.portfolio.projects;
 				break;
 			default:
 				portfolio = ptBr.portfolio.projects;

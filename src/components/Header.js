@@ -17,7 +17,6 @@ class Header extends Component {
 
 		const Social = this.props.consts.social;
 		const Brazil = 'images/flags/brazil.png';
-		const France = 'images/flags/france.svg';
 		const Spain = 'images/flags/spain.svg';
 		const EUA = 'images/flags/eua.png';
 
@@ -71,9 +70,6 @@ class Header extends Component {
 						</span>
 						<span id = 'eua' onClick = {() => this.changeLanguage('en-us')}>
 							<img src = { EUA } alt = 'Estados Unidos/Eua'/>
-						</span>
-						<span id = 'france' onClick = {() => this.changeLanguage('fr-fr')}>
-							<img src = { France } alt = 'França/France'/>
 						</span>
 						<span id = 'spain' onClick = {() => this.changeLanguage('es-es')}>
 							<img src = { Spain } alt = 'Espanha/Spain'/>

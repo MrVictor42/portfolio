@@ -30,10 +30,6 @@
           "image":"heroku.jpg"
         },
         {
-          "name": "GoLang",
-          "image": "golang.jpg"
-        },
-        {
           "name": "ApiRest",
           "image": "apirest.jpeg"
         },

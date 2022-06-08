@@ -4,7 +4,6 @@ import { FormattedMessage } from 'react-intl';
 import CVPtbr from '../files/CV_Victor_Mota_pt_br.pdf';
 import CVEnUs from '../files/CV_Victor_Mota_en_us.pdf';
 import CVEsEs from '../files/CV_Victor_Mota_es_es.pdf';
-import CVFrFr from '../files/CV_Victor_Mota_fr_fr.pdf';
 
 class About extends Component {
 
@@ -22,9 +21,6 @@ class About extends Component {
 				break;
 			case 'es-es':
 				resumecv = CVEsEs;
-				break;
-			case 'fr-fr':
-				resumecv = CVFrFr;
 				break;
 			default:
 				resumecv = CVPtbr;

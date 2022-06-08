@@ -3,10 +3,10 @@
     "about" : "Quem Sou?",
     "resume" : "Resumo",
     "work": "Trabalhos",
-    "description": "Bacharel em Engenharia de Software pela Universidade de Brasília(UnB). Tenho 3 anos na área de TI. Trabalhei como auxiliar de gerente de projetos, testador web, desenvolvedor Front-End e resolvia bugs. Atualmente trabalho como desenvolvedor júnior na TCS (Tata Consultancy Services), desenvolvendo em Java com JSP, JSF e Angular.",
+    "description": "Bacharel em Engenharia de Software pela Universidade de Brasília(UnB). Tenho 4 anos na área de TI. Trabalhei como auxiliar de gerente de projetos, testador web, e atualmente trabalho como Desenvolvedor Full Stack na Tata Consultancy Services(TCS).",
     "im": "Eu sou ",
     "imAbout": "Quem Sou?",
-    "descriptionAbout" : "Em busca por novos conhecimentos e experiências, possuo um grande interesse em desenvolvimento de projetos, desde a sua fase de iniciação até a fase de encerramento. Graduado em Engenharia de Software pela Universidade de Brasília (UnB) com experiência em Java, Java EE, Java Android, Kotlin, ReactJS, Python Django e MySQL, Golang, Javascript, API Rest,HTML e CSS, além de metodologias ageis como SCRUM e XP.",
+    "descriptionAbout" : "Em busca por novos conhecimentos e experiências, possuo um grande interesse em desenvolvimento de projetos, desde a sua fase de iniciação até a fase de encerramento. Graduado em Engenharia de Software pela Universidade de Brasília (UnB) com experiência em Java, Java EE, Spring Boot, Java Android, Kotlin, Angular, ReactJS, Python Django e MySQL, Golang, Javascript, API Rest,HTML e CSS, além de metodologias ageis como SCRUM e XP.",
     "contactAbout": "Contato",
     "name": "Victor Hugo Lopes Mota",
     "email": "victormota042@gmail.com",
@@ -39,23 +39,23 @@
           {
             "key": 2,
             "school": "Udemy",
-            "degree": "Python para Data Science e Machine Learning",
-            "graduated": "Dezembro de 2020",
-            "image": "certificado_data_science.jpg"
-          },
-          {
-            "key": 3,
-            "school": "Udemy",
             "degree": "Java 2021 COMPLETO: Do Zero ao Profissional",
             "graduated": "Fevereiro de 2021",
             "image": "certificado_java.jpg"
           },
           {
-            "key": 4,
+            "key": 3,
             "school": "Udemy",
             "degree": "Desenvolvimento Android Com Kotlin",
             "graduated": "Abril de 2021",
             "image": "certificado_kotlin.jpg"
+          },
+          {
+            "key": 4,
+            "school": "Udemy",
+            "degree": "Fullstack Angular 9 + Spring Boot",
+            "graduated": "Junho de 2022",
+            "image": "certificado_angular_springboot.jpg"
           }
         ],
         "work":[
