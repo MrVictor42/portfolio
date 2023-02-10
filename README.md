@@ -1,9 +1,24 @@
-# Tim Baker Development 
-![ReactJS Resume Website](readme.jpg?raw=true "ReactJS Resume Website")
-### <a href="http://timbakerdev.com/">Check It Out Here</a> 
+# MyPortfolio
 
-## Description
-This is my personal resume website built with ReactJS. I am using my own React resume website template that can be found <a href="https://github.com/tbakerx/react-resume-template">HERE.</a>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
-## I'm looking for work
-I am currently travelling Southeast Asia following my University studies but I will be actively looking for work when my trip is over. My location preference is Victoria, BC as my girlfriend will return to school there after our travels but I am open to remote work and can potentially make other arrangements if the right job comes along. 
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Deploy
+ Open package.json and then, in script section add the following script.
+
+"scripts": {
+    // ...
+    "deploy": "ng b --prod --base-href https://USERNAME.github.io/DEPOT_NAME/ && npx ngh --dir=dist/Project_Name"
+},
+
+And now, you can build and deploy to GitHub Pages with a single command: npm run deploy
+
+
+
