@@ -25,8 +25,8 @@ e. Others
 /* ------------------------------------------------------------------ */
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
- @import url("fonts.css");
 @import url("fontello/css/fontello.css");
+@import url("fonts.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -85,7 +85,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -201,7 +201,7 @@ blockquote:before {
 	left: 0;
 }
 blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family: 'opensans-italic', serif;
    padding: 0;
    font-size: 18px;
    line-height: 36px;
