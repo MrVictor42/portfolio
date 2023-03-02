@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LanguageService } from '../language/language.service';
 
 @Component({
   selector: 'app-resume',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class ResumeComponent {
 
+  locale: any;
+
+	constructor(private languageService : LanguageService) {
+
+	}
+
+	ngOnInit(): void {
+		this.languageService.currentLanguage.subscribe(language => {
+			this.locale = language;
+		});
+	}
 }

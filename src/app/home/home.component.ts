@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { LanguageService } from '../language/language.service';
+import social from '../../assets/i18n/social.json';
 
 @Component({
 	selector: 'app-home',
@@ -8,7 +10,8 @@ import { LanguageService } from '../language/language.service';
 })
 export class HomeComponent implements OnInit {
 
-	locale: any;
+	locale : any;
+	socialProfile : any;
 
 	constructor(private languageService : LanguageService) {
 
@@ -18,5 +21,6 @@ export class HomeComponent implements OnInit {
 		this.languageService.currentLanguage.subscribe(language => {
 			this.locale = language;
 		});
+		this.socialProfile = social;
 	}
 }

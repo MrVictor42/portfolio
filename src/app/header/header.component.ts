@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 	locale : any;
 
 	ngOnInit(): void {
-		this.locale = portuguese;
+		this.locale = english;
 	}
 
 	constructor(private languageService : LanguageService) {
@@ -34,7 +34,7 @@ export class HeaderComponent implements OnInit {
 				break;
 			}
 			default: {
-				this.locale = portuguese;
+				this.locale = english;
 				break;
 			}
 		}

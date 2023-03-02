@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Subject } from 'rxjs';
 
-import portuguese from '../../assets/i18n/pt-BR.json';
+import english from '../../assets/i18n/en-US.json';
 
 @Injectable({
 	providedIn: 'root'
@@ -9,7 +9,7 @@ import portuguese from '../../assets/i18n/pt-BR.json';
 export class LanguageService {
 
 	language = new Subject<any>();
-	private languageSource = new BehaviorSubject(portuguese);
+	private languageSource = new BehaviorSubject(english);
 	currentLanguage = this.languageSource.asObservable();
 
 	changeLanguage(language : any) {

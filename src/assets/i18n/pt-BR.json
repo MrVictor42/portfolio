@@ -3,5 +3,8 @@
     "about" : "Sobre",
     "portfolio" : "Portfolio",
     "works" : "Trabalhos",
-    "name" : "Victor"
+    "homePage" : {
+        "im_am" : "Eu Sou Victor Mota!",
+        "description" : "Eu sou engenheiro de software e desenvolvedor de software baseado em Brasília, Brasil. Meu objetivo é ajudar a entregar o máximo de valor possível para meu empregador e seus clientes. Conheça um pouco mais de mim e minhas habilidades abaixo."
+    }
 }
