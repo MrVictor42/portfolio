@@ -2,9 +2,43 @@
     "home" : "Inicio",
     "about" : "Sobre",
     "portfolio" : "Portfolio",
+    "resume" : "Resumo",
     "works" : "Trabalhos",
     "homePage" : {
         "im_am" : "Eu Sou Victor Mota!",
         "description" : "Eu sou engenheiro de software e desenvolvedor de software baseado em Brasília, Brasil. Meu objetivo é ajudar a entregar o máximo de valor possível para meu empregador e seus clientes. Conheça um pouco mais de mim e minhas habilidades abaixo."
+    },
+    "aboutPage" : {
+        "about" : "Sobre",
+        "description" : "Meu nome é Victor, eu possuo bacharel em Engenharia de Software pela Universidade de Brasília(UnB). No mercado de trabalho, trabalhei por um ano e meio na Tata Consultancy Services(TCS) como desenvolvedor backend junior, utilizando JAVA com principal linguagem de desenvolvimento, mas graças a essa experiência, também aprendi Angular e Spring Boot. Possuo experiência com Java, JSP, JSF, Spring Boot, Java Android, Kotlin, Angular, Python Django, API Rest, além de metodologias ágeis como SCRUM e XP.",
+        "contact" : "Meus Contatos",
+        "nameField" : "Nome",
+        "name" : "Victor Hugo Lopes Mota",
+        "cityField" : "Cidade",
+        "city" : "Brasília, Brasil",
+        "phoneField" : "Celular",
+        "phone" : "+55 61 994592869",
+        "email" : "victormota042@gmail.com"
+    },
+    "resumePage" : {
+        "educationField" : "Educação",
+        "experience" : "Experiência",
+        "skills" : "Habilidades",
+        "education" : [
+            {
+                "key" : 1,
+                "school" : "Universidade de Brasília",
+                "degree" : "Bacharel em Engenharia de Software",
+                "location" : "Brasília, Brasil",
+                "duration" : "Agosto de 2013 - Março de 2021"
+            },
+            {
+                "key" : 2,
+                "school" : "Englishour",
+                "degree" : "Certificado em Lingua Inglesa Nível B1+",
+                "location" : "Dublin, Irlanda",
+                "duration" : "Julho de 2022, Dezembro de 2022"
+            }
+        ]
     }
 }

@@ -2,9 +2,22 @@
     "home" : "Home",
     "about" : "About",
     "portfolio" : "Portfolio",
+    "resume" : "Resume",
     "works" : "Works",
     "homePage" : {
         "im_am" : "I'm Victor Mota!",
         "description" : "I'm a software engineer and software developer based in Brasilia, Brazil. My goal is to help deliver as much value as possible for my employer and their clients. Get to know a little more about me and my skills below."
+    },
+    "aboutPage" : {
+        "about" : "About",
+        "description" : "My name is Victor, I have a bachelor's degree in Software Engineering from the University of Brasília (UnB). In the job market, I worked for a year and a half at Tata Consultancy Services(TCS) as a junior backend developer, using JAVA as the main development language, but thanks to that experience, I also learned Angular and Spring Boot. I have experience with Java, JSP, JSF, Spring Boot, Java Android, Kotlin, Angular, Python Django, Rest API, as well as agile methodologies such as SCRUM and XP.",
+        "contact" : "My Contacts",
+        "nameField" : "Name",
+        "name" : "Victor Hugo Lopes Mota",
+        "cityField" : "City",
+        "city" : "Brasília, Brazil",
+        "phoneField" : "Mobile",
+        "phone" : "+55 61 994592869",
+        "email" : "victormota042@gmail.com"
     }
 }

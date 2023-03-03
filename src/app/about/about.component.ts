@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import { LanguageService } from '../language/language.service';
 
 @Component({
 	selector: 'app-about',
@@ -7,7 +8,16 @@ import { Component, OnInit} from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 	
-	ngOnInit(): void {
+	locale : any;
+	socialProfile : any;
 
+	constructor(private languageService : LanguageService) {
+
+	}
+
+	ngOnInit(): void {
+		this.languageService.currentLanguage.subscribe(language => {
+			this.locale = language;
+		});
 	}
 }
