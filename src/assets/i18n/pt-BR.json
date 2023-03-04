@@ -22,8 +22,8 @@
     },
     "resumePage" : {
         "educationField" : "Educação",
-        "experience" : "Experiência",
-        "skills" : "Habilidades",
+        "experienceField" : "Experiência",
+        "skillsField" : "Habilidades",
         "education" : [
             {
                 "key" : 1,
@@ -38,6 +38,49 @@
                 "degree" : "Certificado em Lingua Inglesa Nível B1+",
                 "location" : "Dublin, Irlanda",
                 "duration" : "Julho de 2022, Dezembro de 2022"
+            }
+        ],
+        "experience" : [
+            {
+                "key" : 1,
+                "company" : "Senado Federal",
+                "title" : "Estagiário",
+                "duration" : "Agosto de 2017 - Agosto de 2019",
+                "location" : "Brasília, Brasil",
+                "description" : "Auxiliar de funções do setor como agendamento de compromissos, trabalhos com HTML, CSS, JS e uso do Liferay para manutenção de páginas do Senado Federal. Além dessas funções, eu também trabalhei na parte de gerenciamento, monitoramento e mapeamento dos projetos com o uso da ferramenta Bizagi."
+            }, 
+            {
+                "key" : 2,
+                "company" : "Tata Consultancy Services",
+                "title" : "Desenvolvedor Backend Java Júnior",
+                "duration" : "Março de 2021 - Julho de 2022",
+                "location" : "Brasília, Brasil",
+                "description" : "Eu trabalhei no backend, com foco em tecnologias Java, e Angular. Neste trabalho eu era responsável por implementar, testar e se necessário realizar manutenções em sistemas do cliente. Neste trabalho usavamos uma adaptação da metodologia SCRUM, então os principais ritos como dailys diarias, revisão de sprints e para o desenvolvimento de códigos, eram realizados em equipes. Meu foco era o backend com Java, mas também desenvolvi utilizando JSP, JSF, Angular e Spring Boot."
+            },
+            {
+                "key" : 3,
+                "company" : "Sea Tecnologia",
+                "title" : "Desenvolvedor Backend Java Júnior",
+                "duration" : "Fevereiro de 2023 - Atual",
+                "location" : "Brasília, Brasil",
+                "description" : "Neste trabalho, eu trabalho exclusivamente com Java, utilizamos o SCRUM como métodologia de desenvolvimento e o framework Liferay como apoio para os entregavéis de software do cliente."
+            }
+        ],
+        "skills" : [
+            {
+                "key" : 1,
+                "name" : "GIT",
+                "image" : "/assets/images/skills/git.png"
+            },
+            {
+                "key" : 2,
+                "name" : "Java",
+                "image" : "/assets/images/skills/java.png"
+            },
+            {
+                "key" : 3,
+                "name" : "Kotlin",
+                "image" : "/assets/images/skills/kotlin.jpg"
             }
         ]
     }

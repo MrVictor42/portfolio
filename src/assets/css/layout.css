@@ -587,6 +587,8 @@ ul#nav li.current a {
 	background: #fff;
 	overflow: hidden;
 	position: relative;
+	width: 150px;
+	height: 150px;
 
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -605,8 +607,8 @@ ul#nav li.current a {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
-	height: 100%;
+	width: 150px;
+	height: 150px;
 
 	opacity: 0;
 	-moz-opacity: 0;
@@ -647,6 +649,8 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
 	vertical-align: bottom;
+	width: 150px;
+	height: 150px;
 }
 
 .portfolio-item .portfolio-item-meta {
