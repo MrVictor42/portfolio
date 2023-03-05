@@ -10,6 +10,7 @@ import { AboutModule } from './about/about.module';
 import { ResumeModule } from './resume/resume.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { FooterModule } from './footer/footer.module';
+import { CertificationsModule } from './certifications/certifications.module';
 
 @NgModule({
 	declarations: [
@@ -24,6 +25,7 @@ import { FooterModule } from './footer/footer.module';
 		AboutModule,
 		ResumeModule,
 		PortfolioModule,
+		CertificationsModule,
 		FooterModule
 	],
 	providers: [],
