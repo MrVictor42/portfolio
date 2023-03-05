@@ -65,23 +65,6 @@
                 "location" : "Brasília, Brasil",
                 "description" : "Neste trabalho, eu trabalho exclusivamente com Java, utilizamos o SCRUM como métodologia de desenvolvimento e o framework Liferay como apoio para os entregavéis de software do cliente."
             }
-        ],
-        "skills" : [
-            {
-                "key" : 1,
-                "name" : "GIT",
-                "image" : "/assets/images/skills/git.png"
-            },
-            {
-                "key" : 2,
-                "name" : "Java",
-                "image" : "/assets/images/skills/java.png"
-            },
-            {
-                "key" : 3,
-                "name" : "Kotlin",
-                "image" : "/assets/images/skills/kotlin.jpg"
-            }
         ]
     }
 }

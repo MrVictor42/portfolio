@@ -19,5 +19,52 @@
         "phoneField" : "Mobile",
         "phone" : "+55 61 994592869",
         "email" : "victormota042@gmail.com"
+    },
+    "resumePage" : {
+        "educationField" : "Education",
+        "experienceField" : "Experiences",
+        "skillsField" : "Skills",
+        "education" : [
+            {
+                "key" : 1,
+                "school" : "University of Brasilia",
+                "degree" : "BSc - Bachelor of Software Engineering",
+                "location" : "Brasília, Brazil",
+                "duration" : "August of 2013 - March of 2021"
+            },
+            {
+                "key" : 2,
+                "school" : "Englishour",
+                "degree" : "Certificate in English Language Level B1+",
+                "location" : "Dublin, Ireland",
+                "duration" : "July de 2022, December de 2022"
+            }
+        ],
+        "experience" : [
+            {
+                "key" : 1,
+                "company" : "Senado Federal",
+                "title" : "Trainee",
+                "duration" : "August of 2017 - August of 2019",
+                "location" : "Brasília, Brazil",
+                "description" : "Assisting with industry functions such as scheduling appointments, working with HTML, CSS, JS and using Liferay to maintain pages for the Federal Senate. In addition to these functions, I also worked on the management, monitoring and mapping of projects using the Bizagi tool."
+            }, 
+            {
+                "key" : 2,
+                "company" : "Tata Consultancy Services",
+                "title" : "Junior Java Backend Developer",
+                "duration" : "March of 2021 - July of 2022",
+                "location" : "Brasília, Brazil",
+                "description" : "I worked on the backend, focusing on Java technologies, and Angular. In this job I was responsible for implementing, testing and if necessary performing maintenance on customer systems. In this work we used an adaptation of the SCRUM methodology, so the main rites such as daily diaries, sprint review and code development were performed in teams. My focus was the backend with Java, but I also developed using JSP, JSF, Angular and Spring Boot."
+            },
+            {
+                "key" : 3,
+                "company" : "Sea Tecnologia",
+                "title" : "Junior Java Backend Developer",
+                "duration" : "February of 2023 - Current",
+                "location" : "Brasília, Brazil",
+                "description" : "In this work, I work exclusively with Java, we use SCRUM as a development method and the Liferay framework as support for the client's software deliverables."
+            }
+        ]
     }
 }

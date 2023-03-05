@@ -45,16 +45,14 @@
         </div>
         <br><br>
         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-            <div *ngFor="let key of keysSkills()" class="columns portfolio-item">
+            <div *ngFor="let skill of skills.skills" class="columns portfolio-item">
                 <div class="item-wrap">
-                    <a href="#skills" title="{{ skills[key].name }}">
-                        <img alt="{{ skills[key].name }}" src="{{ skills[key].image }}">
-                        <div class="overlay">
-                            <div class="portfolio-item-meta">
-                                <h5>{{ skills[key].name }}</h5>
-                            </div>
+                    <img alt="{{ skill.name }}" src="{{ skill.image }}">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <h5>{{ skill.name }}</h5>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

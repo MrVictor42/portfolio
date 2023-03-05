@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { LanguageService } from '../language/language.service';
 
+import skillsJSON from '../../assets/i18n/skills.json';
+
 @Component({
 	selector: 'app-resume',
 	templateUrl: './resume.component.html',
@@ -10,8 +12,8 @@ export class ResumeComponent {
 
 	locale: any;
 	educations: Dictionary | any;
-	experience : Dictionary | any;
-	skills : Dictionary | any;
+	experience: Dictionary | any;
+	skills: any;
 
 	constructor(private languageService: LanguageService) {
 
@@ -22,7 +24,9 @@ export class ResumeComponent {
 			this.locale = language;
 			this.educations = this.locale.resumePage.education;
 			this.experience = this.locale.resumePage.experience;
-			this.skills = this.locale.resumePage.skills;
+			this.skills = skillsJSON;
+			console.log(this.skills)
+			console.log(skillsJSON)
 		});
 	}
 
@@ -34,9 +38,9 @@ export class ResumeComponent {
 		return Object.keys(this.experience!!);
 	}
 
-	keysSkills(): Array<string> {
-		return Object.keys(this.skills!!);
-	}
+	// keysSkills(): Array<string> {
+	// 	return Object.keys(this.skills!!);
+	// }
 }
 
 interface Dictionary {
