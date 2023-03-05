@@ -25,8 +25,6 @@ export class ResumeComponent {
 			this.educations = this.locale.resumePage.education;
 			this.experience = this.locale.resumePage.experience;
 			this.skills = skillsJSON;
-			console.log(this.skills)
-			console.log(skillsJSON)
 		});
 	}
 
@@ -37,10 +35,6 @@ export class ResumeComponent {
 	keysWorks(): Array<string> {
 		return Object.keys(this.experience!!);
 	}
-
-	// keysSkills(): Array<string> {
-	// 	return Object.keys(this.skills!!);
-	// }
 }
 
 interface Dictionary {

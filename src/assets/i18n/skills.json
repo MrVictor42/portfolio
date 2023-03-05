@@ -34,6 +34,11 @@
             "key" : 7,
             "name" : "MySQL",
             "image" : "/assets/images/skills/mysql.png"
+        },
+        {
+            "key" : 8,
+            "name" : "Angular",
+            "image" : "/assets/images/skills/angular.png"
         }
     ]
 }
