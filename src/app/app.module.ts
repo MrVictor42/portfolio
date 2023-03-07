@@ -9,7 +9,6 @@ import { HeaderModule } from './header/header.module';
 import { AboutModule } from './about/about.module';
 import { ResumeModule } from './resume/resume.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
-import { FooterModule } from './footer/footer.module';
 import { CertificationsModule } from './certifications/certifications.module';
 
 @NgModule({
@@ -25,8 +24,7 @@ import { CertificationsModule } from './certifications/certifications.module';
 		AboutModule,
 		ResumeModule,
 		PortfolioModule,
-		CertificationsModule,
-		FooterModule
+		CertificationsModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
