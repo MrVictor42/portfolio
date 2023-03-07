@@ -5,6 +5,8 @@
     "resume" : "Resumo",
     "works" : "Trabalhos",
     "certifications" : "Certificados",
+    "viewResume" : "Visualizar CV",
+    "pdf" : "/assets/pdf/CV_Victor_Mota_pt_br.pdf",
     "homePage" : {
         "im_am" : "Eu Sou Victor Mota!",
         "description" : "Eu sou engenheiro de software e desenvolvedor de software baseado em Brasília, Brasil. Meu objetivo é ajudar a entregar o máximo de valor possível para meu empregador e seus clientes. Conheça um pouco mais de mim e minhas habilidades abaixo."

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -19,6 +19,7 @@ import { CertificationsModule } from './certifications/certifications.module';
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
+		PdfViewerModule,
 		NgbModule,
 		HeaderModule,
 		AboutModule,
