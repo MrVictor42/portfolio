@@ -1,0 +1,20 @@
+<header id="home">
+    <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+        <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">{{ locale.home }}</a></li>
+            <li><a class="smoothscroll" href="#about">{{ locale.about }}</a></li>
+            <li><a class="smoothscroll" href="#resume">{{ locale.resume }} </a></li>
+            <li><a class="smoothscroll" href="#portfolio">{{ locale.portfolio }}</a></li>
+            <li><a class="smoothscroll" href="#certification">{{ locale.certifications }}</a></li>
+            <span (click)="selectedLanguage('pt-BR')" class="flags">
+                <img src = "../../assets/images/flags/brazil.png"/>
+            </span>
+            <span (click)="selectedLanguage('en-US')" class="flags">
+                <img src = "../../assets/images/flags/uk.png"/>
+            </span>
+        </ul> 
+    </nav>
+    <app-home></app-home>
+</header> 

@@ -1,0 +1,31 @@
+<section id="about">
+    <div class="row">
+        <div class="three columns">
+            <img class="profile-pic" src="../../assets/images/profilepic.jpg" alt="Profile Picture" />
+        </div>
+        <div class="nine columns main-col">
+            <h2>{{ locale.aboutPage.about }}</h2>
+            <p> {{ locale.aboutPage.description }} </p>
+            <div class="row">
+                <div class="columns contact-details">
+                    <h2> {{ locale.aboutPage.contact }} </h2>
+                    <p class="address">
+                        <span class="smoothscroll">
+                            {{ locale.aboutPage.nameField }} : {{ locale.aboutPage.name }}
+                        </span><br>
+                        <span class="smoothscroll">
+                            {{ locale.aboutPage.cityField }} : {{ locale.aboutPage.city }}
+                        </span><br>
+                        <span class="smoothscroll">
+                            {{ locale.aboutPage.phoneField }} : {{ locale.aboutPage.phone }}
+                        </span><br>
+                        <span class="smoothscroll"> {{ locale.aboutPage.email }} </span>
+                    </p>
+                </div>
+                <div class="columns download">
+                    <p><a href="{{ locale.pdf }}" target = '_blank' class="button"><i class="fa fa-download"></i>{{ locale.viewResume }}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
