@@ -6,7 +6,8 @@
     "works" : "Trabalhos",
     "certifications" : "Certificados",
     "viewResume" : "Visualizar CV",
-    "pdf" : "/assets/pdf/CV_Victor_Mota_pt_br.pdf",
+    "language" : "pt_br",
+    "pdf" : "assets/pdf/CV_Victor_Mota_pt_br.pdf",
     "homePage" : {
         "im_am" : "Eu Sou Victor Mota!",
         "description" : "Eu sou engenheiro de software e desenvolvedor de software baseado em Brasília, Brasil. Meu objetivo é ajudar a entregar o máximo de valor possível para meu empregador e seus clientes. Conheça um pouco mais de mim e minhas habilidades abaixo."
@@ -79,56 +80,56 @@
                 "key" : 1,
                 "name" : "Escola - X - Backend",
                 "description" : "Projeto desenvolvido utilizando Kotlin como backend REST. A ideia desse projeto era desenvolver um sistema que auxiliasse no gerenciamento escolar da vida do aluno, desde o momento em que ele entra, até o momento em que ele sai da escola.",
-                "image" : "/assets/images/skills/kotlin.jpg",
+                "image" : "assets/images/skills/kotlin.jpg",
                 "link" : "https://github.com/MrVictor42/Escola-X-Backend"
             },
             {
                 "key" : 2,
                 "name" : "Escola - X - Frontend",
                 "description" : "Projeto desenvolvido utilizando Angular como frontend do projeto Escola -X. A ideia desse projeto era desenvolver um sistema que auxiliasse no gerenciamento escolar da vida do aluno, desde o momento em que ele entra, até o momento em que ele sai da escola.",
-                "image" : "/assets/images/skills/angular.png",
+                "image" : "assets/images/skills/angular.png",
                 "link" : "https://github.com/MrVictor42/EscolaX-Frontend"
             },
             {
                 "key" : 3,
                 "name" : "MyAn",
                 "description" : "Projeto desenvolvido utilizando Kotlin como linguagem de desenvolvimento. Este projeto é exclusivo para dispositivos android e tinha como por objetivo mostrar os animes e mangas lançados diretamente do Japão a partir de uma requisição REST. Neste aplicativo é possível assistir episódios dos animes, desde que eles sejam liberados pela plataforma.",
-                "image" : "/assets/images/skills/myan.jpeg",
+                "image" : "assets/images/skills/myan.jpeg",
                 "link" : "https://github.com/MrVictor42/myan"
             },
             {
                 "key" : 4,
                 "name" : "Grata Frontend",
                 "description" : "Projeto desenvolvido utilizando React como frontend do projeto Grata. Este trabalho foi meu Trabalho de Conclusão de Curso e tinha como objetivo gerenciar a vida de uma reunião. É um projeto gratuito que poderia ser utilizado como principal ferramente de acompanhamento de projetos.",
-                "image" : "/assets/images/skills/react.jpg",
+                "image" : "assets/images/skills/react.jpg",
                 "link" : "https://github.com/MrVictor42/Grata-Frontend-v2"
             },
             {
                 "key" : 5,
                 "name" : "Grata Backend",
                 "description" : "Projeto desenvolvido utilizando Python Django como backend REST. A ideia desse projeto era desenvolver o backend do projeto Grata.",
-                "image" : "/assets/images/skills/pythondjango.jpg",
+                "image" : "assets/images/skills/pythondjango.jpg",
                 "link" : "https://github.com/MrVictor42/Grata-Backend-v2"
             },
             {
                 "key" : 6,
                 "name" : "Escola - X - App",
                 "description" : "Projeto desenvolvido utilizando Java Android. Este projeto tinha como objetivo notificar os pais e responsáveis caso acontecesse algo com o filho ou caso este tomasse alguma advertência/suspensão na escola.",
-                "image" : "/assets/images/skills/escola-x.jpg",
+                "image" : "assets/images/skills/escola-x.jpg",
                 "link" : "https://github.com/fga-eps-mds/2017.1-Escola-X.app"
             },
             {
                 "key" : 7,
                 "name" : "Sea TodoList - Backend",
                 "description" : "Projeto desenvolvido utilizando Kotlin como backend REST. Este foi um desafio cujo o objetivo era realizar um todo list, mas que contém também uma autenticação JWT.",
-                "image" : "/assets/images/skills/kotlin.jpg",
+                "image" : "assets/images/skills/kotlin.jpg",
                 "link" : "https://github.com/MrVictor42/Sea-TodoList-Backend"
             },
             {
                 "key" : 8,
                 "name" : "Sea TodoList - Angular",
                 "description" : "Projeto desenvolvido utilizando Angular como frontend do projeto Sea Todo List.",
-                "image" : "/assets/images/skills/angular.png",
+                "image" : "assets/images/skills/angular.png",
                 "link" : "https://github.com/MrVictor42/Sea-TodoList-Frontend"
             }
         ]

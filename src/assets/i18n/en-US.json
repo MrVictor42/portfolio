@@ -6,7 +6,8 @@
     "works" : "Works",
     "certifications" : "Certifications",
     "viewResume" : "Show CV",
-    "pdf" : "/assets/pdf/CV_Victor_Mota.pdf",
+    "pdf" : "assets/pdf/CV_Victor_Mota.pdf",
+    "language" : "en_us",
     "homePage" : {
         "im_am" : "I'm Victor Mota!",
         "description" : "I'm a software engineer and software developer based in Brasilia, Brazil. My goal is to help deliver as much value as possible for my employer and their clients. Get to know a little more about me and my skills below."
@@ -79,56 +80,56 @@
                 "key" : 1,
                 "name" : "Escola - X - Backend",
                 "description" : "Project developed using Kotlin as REST backend. The idea of this project was to develop a system that would help in the school management of the student's life, from the moment he enters until the moment he leaves school.",
-                "image" : "/assets/images/skills/kotlin.jpg",
+                "image" : "assets/images/skills/kotlin.jpg",
                 "link" : "https://github.com/MrVictor42/Escola-X-Backend"
             },
             {
                 "key" : 2,
                 "name" : "Escola - X - Frontend",
                 "description" : "Project developed using Angular as the frontend of the Escola-X project. The idea of this project was to develop a system that would help in the school management of the student's life, from the moment he enters until the moment he leaves school.",
-                "image" : "/assets/images/skills/angular.png",
+                "image" : "assets/images/skills/angular.png",
                 "link" : "https://github.com/MrVictor42/EscolaX-Frontend"
             },
             {
                 "key" : 3,
                 "name" : "MyAn",
                 "description" : "Project developed using Kotlin as development language. This project is exclusive for android devices and aimed to show anime and manga released directly from Japan from a REST request. In this application it is possible to watch anime episodes, as long as they are released by the platform.",
-                "image" : "/assets/images/skills/myan.jpeg",
+                "image" : "assets/images/skills/myan.jpeg",
                 "link" : "https://github.com/MrVictor42/myan"
             },
             {
                 "key" : 4,
                 "name" : "Grata Frontend",
                 "description" : "Project developed using React as the frontend of the Grata project. This work was my Course Completion Work and aimed to manage the life of a meeting. It's a free project that could be used as a main project tracking tool.",
-                "image" : "/assets/images/skills/react.jpg",
+                "image" : "assets/images/skills/react.jpg",
                 "link" : "https://github.com/MrVictor42/Grata-Frontend-v2"
             },
             {
                 "key" : 5,
                 "name" : "Grata Backend",
                 "description" : "Project developed using Python Django as REST backend. The idea of this project was to develop the backend of the Grata project.",
-                "image" : "/assets/images/skills/pythondjango.jpg",
+                "image" : "assets/images/skills/pythondjango.jpg",
                 "link" : "https://github.com/MrVictor42/Grata-Backend-v2"
             },
             {
                 "key" : 6,
                 "name" : "Escola - X - App",
                 "description" : "Project developed using Java Android. This project aimed to notify parents and guardians in case something happened to the child or if the child received a warning/suspension at school.",
-                "image" : "/assets/images/skills/escola-x.jpg",
+                "image" : "assets/images/skills/escola-x.jpg",
                 "link" : "https://github.com/fga-eps-mds/2017.1-Escola-X.app"
             },
             {
                 "key" : 7,
                 "name" : "Sea TodoList - Backend",
                 "description" : "Project developed using Kotlin as REST backend. This was a challenge whose objective was to perform a todo list, but which also contains a JWT authentication.",
-                "image" : "/assets/images/skills/kotlin.jpg",
+                "image" : "assets/images/skills/kotlin.jpg",
                 "link" : "https://github.com/MrVictor42/Sea-TodoList-Backend"
             },
             {
                 "key" : 8,
                 "name" : "Sea TodoList - Angular",
                 "description" : "Project developed using Angular as the frontend of the Sea Todo List project.",
-                "image" : "/assets/images/skills/angular.png",
+                "image" : "assets/images/skills/angular.png",
                 "link" : "https://github.com/MrVictor42/Sea-TodoList-Frontend"
             }
         ]

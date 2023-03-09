@@ -1,8 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { LanguageService } from '../language/language.service';
 
-import english from '../../assets/i18n/en-US.json';
-
 @Component({
 	selector: 'app-about',
 	templateUrl: './about.component.html',
@@ -25,10 +23,10 @@ export class AboutComponent implements OnInit {
 	}
 
 	showCV() {
-		if(this.locale == english) {
-			this.pdfPath = "/assets/pdf/CV_Victor_Mota.pdf";
+		if(this.locale.language == 'en_us') {
+			this.pdfPath = "assets/pdf/CV_Victor_Mota.pdf";
 		} else {
-			this.pdfPath = "/assets/pdf/CV_Victor_Mota_pt_br.pdf";
+			this.pdfPath = "assets/pdf/CV_Victor_Mota_pt_br.pdf";
 		}
 	}
 }
