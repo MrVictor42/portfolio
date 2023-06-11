@@ -29,6 +29,12 @@
             "name" : "Java Completo : Do Zero ao Profissional + Projetos",
             "image" : "assets/images/certifications/certificado_java.jpg",
             "duration" : "77 horas"
+        },
+        {
+            "key" : 6,
+            "name" : "Rest API's RestFul do 0 à AWS c. Spring Boot Kotlin e Docker",
+            "image" : "assets/images/certifications/kotlin_aws_springboot.jpg",
+            "duration" : "27 horas"
         }
     ]
 }
